@@ -1,0 +1,192 @@
+{
+ "n": 18,
+ "rule": "eff-extremes+uniform, task≤2",
+ "quota": {
+  "tool_selection": 6,
+  "final_synthesis": 6,
+  "tool_argument_generation": 4,
+  "other": 2
+ },
+ "spans": [
+  {
+   "task": "21abae1_1",
+   "inv": 5,
+   "eff": 0.0,
+   "sT": 1.0,
+   "sB": 1.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "final_synthesis"
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 0,
+   "eff": 0.0,
+   "sT": 1.0,
+   "sB": 1.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "tool_selection"
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 1,
+   "eff": -1.0,
+   "sT": 0.0,
+   "sB": 1.0,
+   "sI": 0.0,
+   "cv_tools": 0.0,
+   "node": "tool_argument_generation"
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 1,
+   "eff": 0.0,
+   "sT": 0.0,
+   "sB": 0.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "tool_argument_generation"
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 5,
+   "eff": 0.0,
+   "sT": 1.0,
+   "sB": 1.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "final_synthesis"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 0,
+   "eff": 1.0,
+   "sT": 1.0,
+   "sB": 0.0,
+   "sI": 1.0,
+   "cv_tools": 0.39552238805970147,
+   "node": "tool_selection"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 0,
+   "eff": -1.0,
+   "sT": 0.0,
+   "sB": 1.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "tool_selection"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 6,
+   "eff": 0.0,
+   "sT": 0.0,
+   "sB": 0.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "final_synthesis"
+  },
+  {
+   "task": "4ec8de5_2",
+   "inv": 0,
+   "eff": 0.19999999999999996,
+   "sT": 1.0,
+   "sB": 0.8,
+   "sI": 0.2,
+   "cv_tools": 0.21705426356589144,
+   "node": "tool_selection"
+  },
+  {
+   "task": "4ec8de5_2",
+   "inv": 1,
+   "eff": 0.0,
+   "sT": 0.0,
+   "sB": 0.0,
+   "sI": 0.0,
+   "cv_tools": 0.0,
+   "node": "tool_argument_generation"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 4,
+   "eff": -1.0,
+   "sT": 0.0,
+   "sB": 1.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "other"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 5,
+   "eff": 1.0,
+   "sT": 1.0,
+   "sB": 0.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "final_synthesis"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 1,
+   "eff": 0.0,
+   "sT": 0.0,
+   "sB": 0.0,
+   "sI": 0.0,
+   "cv_tools": 0.0,
+   "node": "tool_argument_generation"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 6,
+   "eff": 1.0,
+   "sT": 1.0,
+   "sB": 0.0,
+   "sI": 0.0,
+   "cv_tools": 0.0,
+   "node": "other"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 0,
+   "eff": -0.19999999999999996,
+   "sT": 0.8,
+   "sB": 1.0,
+   "sI": 0.0,
+   "cv_tools": 0.0,
+   "node": "tool_selection"
+  },
+  {
+   "task": "6bdbc26_1",
+   "inv": 5,
+   "eff": 0.0,
+   "sT": 1.0,
+   "sB": 1.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "final_synthesis"
+  },
+  {
+   "task": "6bdbc26_2",
+   "inv": 0,
+   "eff": 0.0,
+   "sT": 1.0,
+   "sB": 1.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "tool_selection"
+  },
+  {
+   "task": "fac291d_1",
+   "inv": 5,
+   "eff": 0.0,
+   "sT": 1.0,
+   "sB": 1.0,
+   "sI": 1.0,
+   "cv_tools": 0.0,
+   "node": "final_synthesis"
+  }
+ ]
+}
