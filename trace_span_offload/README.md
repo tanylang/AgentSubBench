@@ -14,10 +14,8 @@ effects, and measures five response families (local, downstream, final, collater
 risk, and resources in tokens/time). The resulting conditional response atlas
 supports offloading decisions under explicit quality, risk, and resource objectives.
 
-This repository is the open-source code accompanying the paper
-*IMPACT: Measuring Conditional Workflow Responses to Single-Span Model
-Substitution in Stateful LLM Agents* (ICLR 2027 submission). Full experiment
-inventory and all analysis numbers: `docs/EXPERIMENT_DATA_ANALYSIS_RECORD.md`.
+Full experiment inventory and all analysis numbers:
+`docs/EXPERIMENT_DATA_ANALYSIS_RECORD.md`.
 
 ## Repository Layout
 
