@@ -45,3 +45,6 @@ Thumbs.db
 paper/
 slurm/
 source_code/autogen/dotnet/
+
+# 发布用压缩包(本地生成,不入库)
+release_assets/
