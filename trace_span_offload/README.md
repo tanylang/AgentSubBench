@@ -1,11 +1,9 @@
-# IMPACT — Measuring Workflow Responses to Single-Span Model Substitution
-
-> Intervention Measurement and Profiling of Agent-Call Trajectories
+# Span-Offload: Single-Span Model-Substitution Measurement
 
 In a **stateful LLM agent**, replacing one physical LM invocation (span) changes
 subsequent actions, state transitions, and observations. Local output agreement
 cannot determine the effect of a substitution — its consequences unfold through
-the live continuation. IMPACT provides a workload-agnostic intervention
+the live continuation. The pipeline provides a workload-agnostic intervention
 methodology: starting from a common pre-invocation state, a four-condition
 protocol — **C0 (frozen-replay audit) / I (recorded-output continuation) /
 B (baseline resampling) / T_span (single-span substitution)** — separates replay

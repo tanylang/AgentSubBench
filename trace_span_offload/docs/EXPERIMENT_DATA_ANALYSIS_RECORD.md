@@ -1,6 +1,6 @@
 # 实验数据结果分析记录(截至 2026-10-19)
 
-> 本文件记录当前仓库内全部实验数据及其分析结果,重点是**论文(agentsubbench_arxiv.tex,投稿版)尚未收录**的部分。
+> 本文件记录当前仓库内全部实验数据及其分析结果,重点是**论文(论文主 tex,投稿版)尚未收录**的部分。
 > 生成方式:从 results/、out_span_offload/、check_point_traces/ 的实际产物中直接提取与复算。
 > 模型约定:baseline = Qwen3.8-27B,candidate = Qwen/Qwen3.5-9B;主对比 T_span − B;strict success = final_success ∧ ¬collateral。
 
