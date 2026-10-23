@@ -1,0 +1,4698 @@
+{
+ "strata": {
+  "simplified": {
+   "pos": [
+    {
+     "key": "pos",
+     "stratum": "early",
+     "n": 28,
+     "strict_T": 0.42142857142857143,
+     "strict_B": 0.45714285714285713,
+     "d_success": -0.03571428571428571,
+     "d_success_lcb": -0.21428571428571427,
+     "d_success_ucb": 0.15,
+     "net_saving": -88443.4,
+     "net_saving_lcb": -115323.15000000004,
+     "net_saving_ucb": 328297.6499999999,
+     "rho_comp_median": 29.40887174541948,
+     "zero_detour_delta_ratio": 0.14285714285714285,
+     "collateral_wilson_ucb": 0.018958931745489696
+    },
+    {
+     "key": "pos",
+     "stratum": "late",
+     "n": 20,
+     "strict_T": 0.8,
+     "strict_B": 0.7,
+     "d_success": 0.1,
+     "d_success_lcb": -0.1,
+     "d_success_ucb": 0.3,
+     "net_saving": 9959.380000000001,
+     "net_saving_lcb": -32060.3,
+     "net_saving_ucb": 3571.4,
+     "rho_comp_median": 0.0,
+     "zero_detour_delta_ratio": 0.6,
+     "collateral_wilson_ucb": 0.026342732417329633
+    }
+   ],
+   "call": [
+    {
+     "key": "call",
+     "stratum": "multi",
+     "n": 11,
+     "strict_T": 0,
+     "strict_B": 0.09090909090909091,
+     "d_success": -0.09090909090909091,
+     "d_success_lcb": -0.2727272727272727,
+     "d_success_ucb": 0.0,
+     "net_saving": -185194.65454545454,
+     "net_saving_lcb": -44110.763636363634,
+     "net_saving_ucb": 377873.2181818182,
+     "rho_comp_median": 1523.9357142857143,
+     "zero_detour_delta_ratio": 0.0,
+     "collateral_wilson_ucb": 0.04688535038110482
+    },
+    {
+     "key": "call",
+     "stratum": "no_call",
+     "n": 20,
+     "strict_T": 0.69,
+     "strict_B": 0.69,
+     "d_success": 0.0,
+     "d_success_lcb": -0.27,
+     "d_success_ucb": 0.26,
+     "net_saving": -15356.989999999996,
+     "net_saving_lcb": -204959.01,
+     "net_saving_ucb": 332764.66000000003,
+     "rho_comp_median": -3.3957329658661166,
+     "zero_detour_delta_ratio": 0.25,
+     "collateral_wilson_ucb": 0.026342732417329633
+    },
+    {
+     "key": "call",
+     "stratum": "single",
+     "n": 17,
+     "strict_T": 0.8235294117647058,
+     "strict_B": 0.7058823529411765,
+     "d_success": 0.11764705882352941,
+     "d_success_lcb": 0.0,
+     "d_success_ucb": 0.29411764705882354,
+     "net_saving": 3944.3176470588237,
+     "net_saving_lcb": -10893.470588235294,
+     "net_saving_ucb": 1702.4235294117648,
+     "rho_comp_median": 0.0,
+     "zero_detour_delta_ratio": 0.6470588235294118,
+     "collateral_wilson_ucb": 0.030848046051669582
+    }
+   ],
+   "write": [
+    {
+     "key": "write",
+     "stratum": "no_call",
+     "n": 20,
+     "strict_T": 0.69,
+     "strict_B": 0.69,
+     "d_success": 0.0,
+     "d_success_lcb": -0.27,
+     "d_success_ucb": 0.26,
+     "net_saving": -15356.989999999996,
+     "net_saving_lcb": -204959.01,
+     "net_saving_ucb": 332764.66000000003,
+     "rho_comp_median": -3.3957329658661166,
+     "zero_detour_delta_ratio": 0.25,
+     "collateral_wilson_ucb": 0.026342732417329633
+    },
+    {
+     "key": "write",
+     "stratum": "read_only",
+     "n": 11,
+     "strict_T": 0,
+     "strict_B": 0.09090909090909091,
+     "d_success": -0.09090909090909091,
+     "d_success_lcb": -0.2727272727272727,
+     "d_success_ucb": 0.0,
+     "net_saving": -185194.65454545454,
+     "net_saving_lcb": -44110.763636363634,
+     "net_saving_ucb": 377873.2181818182,
+     "rho_comp_median": 1523.9357142857143,
+     "zero_detour_delta_ratio": 0.0,
+     "collateral_wilson_ucb": 0.04688535038110482
+    },
+    {
+     "key": "write",
+     "stratum": "write",
+     "n": 17,
+     "strict_T": 0.8235294117647058,
+     "strict_B": 0.7058823529411765,
+     "d_success": 0.11764705882352941,
+     "d_success_lcb": 0.0,
+     "d_success_ucb": 0.29411764705882354,
+     "net_saving": 3944.3176470588237,
+     "net_saving_lcb": -10893.470588235294,
+     "net_saving_ucb": 1702.4235294117648,
+     "rho_comp_median": 0.0,
+     "zero_detour_delta_ratio": 0.6470588235294118,
+     "collateral_wilson_ucb": 0.030848046051669582
+    }
+   ],
+   "novel": [
+    {
+     "key": "novel",
+     "stratum": "new",
+     "n": 28,
+     "strict_T": 0.5,
+     "strict_B": 0.4642857142857143,
+     "d_success": 0.03571428571428571,
+     "d_success_lcb": -0.07142857142857142,
+     "d_success_ucb": 0.17857142857142858,
+     "net_saving": -70360.27857142857,
+     "net_saving_lcb": -14760.407142857144,
+     "net_saving_ucb": 157644.7714285714,
+     "rho_comp_median": 0.0,
+     "zero_detour_delta_ratio": 0.39285714285714285,
+     "collateral_wilson_ucb": 0.018958931745489696
+    },
+    {
+     "key": "novel",
+     "stratum": "repeat",
+     "n": 20,
+     "strict_T": 0.69,
+     "strict_B": 0.69,
+     "d_success": 0.0,
+     "d_success_lcb": -0.27,
+     "d_success_ucb": 0.26,
+     "net_saving": -15356.989999999996,
+     "net_saving_lcb": -204959.01,
+     "net_saving_ucb": 332764.66000000003,
+     "rho_comp_median": -3.3957329658661166,
+     "zero_detour_delta_ratio": 0.25,
+     "collateral_wilson_ucb": 0.026342732417329633
+    }
+   ]
+  },
+  "tau2": {
+   "pos": [
+    {
+     "key": "pos",
+     "stratum": "early",
+     "n": 14,
+     "strict_T": 0.5785714285714286,
+     "strict_B": 0.5650793650793651,
+     "d_success": 0.013492063492063494,
+     "d_success_lcb": -0.1857142857142857,
+     "d_success_ucb": 0.21428571428571427,
+     "net_saving": -3488.3952380952387,
+     "net_saving_lcb": -15488.157142857142,
+     "net_saving_ucb": 22240.585714285717,
+     "rho_comp_median": 224.8304431599229,
+     "zero_detour_delta_ratio": 0.5,
+     "collateral_wilson_ucb": 0.019228415535747286
+    },
+    {
+     "key": "pos",
+     "stratum": "middle",
+     "n": 6,
+     "strict_T": 0.43333333333333335,
+     "strict_B": 0.2916666666666667,
+     "d_success": 0.14166666666666666,
+     "d_success_lcb": -0.13333333333333333,
+     "d_success_ucb": 0.4666666666666666,
+     "net_saving": -17776.704629629625,
+     "net_saving_lcb": -7394.200000000002,
+     "net_saving_ucb": 45287.63333333334,
+     "rho_comp_median": 2.847142857142864,
+     "zero_detour_delta_ratio": 0.16666666666666666,
+     "collateral_wilson_ucb": 0.04608669753433161
+    }
+   ],
+   "call": [
+    {
+     "key": "call",
+     "stratum": "multi",
+     "n": 15,
+     "strict_T": 0.42,
+     "strict_B": 0.3540740740740741,
+     "d_success": 0.06592592592592593,
+     "d_success_lcb": -0.13333333333333333,
+     "d_success_ucb": 0.2933333333333333,
+     "net_saving": -12020.662962962962,
+     "net_saving_lcb": -4582.573333333332,
+     "net_saving_ucb": 30064.53333333333,
+     "rho_comp_median": 62.25660893345497,
+     "zero_detour_delta_ratio": 0.2,
+     "collateral_wilson_ucb": 0.017952522497013512
+    },
+    {
+     "key": "call",
+     "stratum": "single",
+     "n": 7,
+     "strict_T": 0.6285714285714286,
+     "strict_B": 0.6214285714285714,
+     "d_success": 0.00714285714285715,
+     "d_success_lcb": -0.1714285714285714,
+     "d_success_ucb": 0.19999999999999998,
+     "net_saving": -4294.030952380953,
+     "net_saving_lcb": -21857.485714285714,
+     "net_saving_ucb": 33473.11428571428,
+     "rho_comp_median": 249.9919293436881,
+     "zero_detour_delta_ratio": 0.8571428571428571,
+     "collateral_wilson_ucb": 0.03937884043952212
+    }
+   ],
+   "write": [
+    {
+     "key": "write",
+     "stratum": "read_only",
+     "n": 6,
+     "strict_T": 0.41666666666666663,
+     "strict_B": 0.43333333333333335,
+     "d_success": -0.016666666666666677,
+     "d_success_lcb": -0.2333333333333333,
+     "d_success_ucb": 0.2333333333333333,
+     "net_saving": -1942.6333333333303,
+     "net_saving_lcb": -18777.93333333333,
+     "net_saving_ucb": 21467.500000000004,
+     "rho_comp_median": -64.19683908045994,
+     "zero_detour_delta_ratio": 0.5,
+     "collateral_wilson_ucb": 0.04314681732000257
+    },
+    {
+     "key": "write",
+     "stratum": "write",
+     "n": 16,
+     "strict_T": 0.5125,
+     "strict_B": 0.44131944444444443,
+     "d_success": 0.07118055555555555,
+     "d_success_lcb": -0.11249999999999999,
+     "d_success_ucb": 0.2625,
+     "net_saving": -12419.522569444445,
+     "net_saving_lcb": -5979.200000000003,
+     "net_saving_ucb": 31125.612499999996,
+     "rho_comp_median": 196.74125874125872,
+     "zero_detour_delta_ratio": 0.375,
+     "collateral_wilson_ucb": 0.017265149658987032
+    }
+   ],
+   "novel": [
+    {
+     "key": "novel",
+     "stratum": "new",
+     "n": 15,
+     "strict_T": 0.5133333333333333,
+     "strict_B": 0.46074074074074073,
+     "d_success": 0.052592592592592594,
+     "d_success_lcb": -0.09333333333333334,
+     "d_success_ucb": 0.22666666666666666,
+     "net_saving": -3949.888888888889,
+     "net_saving_lcb": -13767.106666666665,
+     "net_saving_ucb": 22430.853333333336,
+     "rho_comp_median": 113.83879300853289,
+     "zero_detour_delta_ratio": 0.5333333333333333,
+     "collateral_wilson_ucb": 0.017952522497013512
+    },
+    {
+     "key": "novel",
+     "stratum": "repeat",
+     "n": 7,
+     "strict_T": 0.42857142857142855,
+     "strict_B": 0.39285714285714285,
+     "d_success": 0.03571428571428571,
+     "d_success_lcb": -0.2857142857142857,
+     "d_success_ucb": 0.39999999999999997,
+     "net_saving": -21588.54682539682,
+     "net_saving_lcb": -2124.3142857142852,
+     "net_saving_ucb": 45812.11428571428,
+     "rho_comp_median": 129.49893383735684,
+     "zero_detour_delta_ratio": 0.14285714285714285,
+     "collateral_wilson_ucb": 0.03937884043952212
+    }
+   ]
+  }
+ },
+ "cross": [
+  [
+   "early×multi",
+   {
+    "simplified": {
+     "n": 11,
+     "d_success": -0.09090909090909091,
+     "d_success_lcb": -0.2727272727272727,
+     "rho_median": 1523.9357142857143,
+     "zero": 0
+    },
+    "tau2": {
+     "n": 8,
+     "d_success": 0.048611111111111105,
+     "d_success_lcb": -0.25,
+     "rho_median": 224.8304431599229,
+     "zero": 0.125
+    }
+   }
+  ],
+  [
+   "early×read_only",
+   {
+    "simplified": {
+     "n": 11,
+     "d_success": -0.09090909090909091,
+     "d_success_lcb": -0.2727272727272727,
+     "rho_median": 1523.9357142857143,
+     "zero": 0
+    },
+    "tau2": {
+     "n": 6,
+     "d_success": -0.016666666666666677,
+     "d_success_lcb": -0.2333333333333333,
+     "rho_median": -64.19683908045994,
+     "zero": 0.5
+    }
+   }
+  ],
+  [
+   "write×new",
+   {
+    "simplified": {
+     "n": 17,
+     "d_success": 0.11764705882352941,
+     "d_success_lcb": 0.0,
+     "rho_median": 0.0,
+     "zero": 0.6470588235294118
+    },
+    "tau2": {
+     "n": 9,
+     "d_success": 0.09876543209876544,
+     "d_success_lcb": -0.08888888888888889,
+     "rho_median": 224.8304431599229,
+     "zero": 0.5555555555555556
+    }
+   }
+  ],
+  [
+   "read_only×new",
+   {
+    "simplified": {
+     "n": 11,
+     "d_success": -0.09090909090909091,
+     "d_success_lcb": -0.2727272727272727,
+     "rho_median": 1523.9357142857143,
+     "zero": 0
+    },
+    "tau2": {
+     "n": 6,
+     "d_success": -0.016666666666666677,
+     "d_success_lcb": -0.2333333333333333,
+     "rho_median": -64.19683908045994,
+     "zero": 0.5
+    }
+   }
+  ]
+ ],
+ "sim_rows": [
+  {
+   "task": "21abae1_1",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": -3356.7999999999993,
+   "direct_saving": -2702.6000000000004,
+   "downstream_comp": 654.2000000000007,
+   "rho_comp": 654200000000.0007,
+   "d_delta": 0.2727272727272727,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    36082,
+    35968,
+    36082,
+    36071,
+    36082
+   ],
+   "rt_Btot": [
+    32700,
+    32701,
+    32700,
+    32697,
+    32703
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "21abae1_1",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -179526.40000000002,
+   "direct_saving": 85.60000000000036,
+   "downstream_comp": 179612.0,
+   "rho_comp": 2098.2710280373744,
+   "d_delta": 0.5649439880507843,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    468409,
+    351083,
+    351083,
+    351083,
+    351083
+   ],
+   "rt_Btot": [
+    59480,
+    46554,
+    59516,
+    456939,
+    352620
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "21abae1_1",
+   "inv": 5,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 118,
+   "direct_saving": 118,
+   "downstream_comp": 0,
+   "rho_comp": 0.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    9039,
+    9039,
+    9039,
+    9039,
+    9039
+   ],
+   "rt_Btot": [
+    9157,
+    9157,
+    9157,
+    9157,
+    9157
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 1837.800000000003,
+   "direct_saving": 402,
+   "downstream_comp": -1435.800000000003,
+   "rho_comp": -3.5716417910447835,
+   "d_delta": 0.11764705882352941,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    77882,
+    77882,
+    77882,
+    77882,
+    77882
+   ],
+   "rt_Btot": [
+    79711,
+    79722,
+    79722,
+    79722,
+    79722
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -646687,
+   "direct_saving": 77,
+   "downstream_comp": 646764,
+   "rho_comp": 8399.532467532468,
+   "d_delta": 0.8828828828828829,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    691832,
+    691832,
+    691832,
+    691832,
+    691832
+   ],
+   "rt_Btot": [
+    45145,
+    45145,
+    45145,
+    45145,
+    45145
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 7,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 419,
+   "direct_saving": 419,
+   "downstream_comp": 0,
+   "rho_comp": 0.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    15911,
+    15911,
+    15911,
+    15911,
+    15911
+   ],
+   "rt_Btot": [
+    16330,
+    16330,
+    16330,
+    16330,
+    16330
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 977.5999999999985,
+   "direct_saving": 492,
+   "downstream_comp": -485.59999999999854,
+   "rho_comp": -0.9869918699186963,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    56015,
+    56015,
+    56015,
+    55981,
+    55981
+   ],
+   "rt_Btot": [
+    56979,
+    56979,
+    56979,
+    56979,
+    56979
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 1,
+   "d_success": -1,
+   "net_saving": -485164,
+   "direct_saving": 61,
+   "downstream_comp": 485225,
+   "rho_comp": 7954.508196721312,
+   "d_delta": 0.9345794392523364,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    584764,
+    584764,
+    584764,
+    584764,
+    584764
+   ],
+   "rt_Btot": [
+    99600,
+    99600,
+    99600,
+    99600,
+    99600
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 6,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 602,
+   "direct_saving": 602,
+   "downstream_comp": 0,
+   "rho_comp": 0.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    11485,
+    11485,
+    11485,
+    11485,
+    11485
+   ],
+   "rt_Btot": [
+    12087,
+    12087,
+    12087,
+    12087,
+    12087
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 0,
+   "d_success": 1,
+   "net_saving": 514770,
+   "direct_saving": 3876,
+   "downstream_comp": -510894,
+   "rho_comp": -131.80959752321982,
+   "d_delta": 0.9935064935064936,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    51794,
+    51794,
+    51794,
+    51794,
+    51794
+   ],
+   "rt_Btot": [
+    566564,
+    566564,
+    566564,
+    566564,
+    566564
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -456956,
+   "direct_saving": 436,
+   "downstream_comp": 457392,
+   "rho_comp": 1049.0642201834862,
+   "d_delta": 0.9802631578947368,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    483458,
+    483458,
+    483458,
+    483458,
+    483458
+   ],
+   "rt_Btot": [
+    26502,
+    26502,
+    26502,
+    26502,
+    26502
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 5,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": -15834,
+   "direct_saving": 581,
+   "downstream_comp": 16415,
+   "rho_comp": 28.253012048192772,
+   "d_delta": 0.5,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    30157,
+    30157,
+    30157,
+    30157,
+    30157
+   ],
+   "rt_Btot": [
+    14323,
+    14323,
+    14323,
+    14323,
+    14323
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "383cbac_2",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 0,
+   "d_success": 1,
+   "net_saving": 791234,
+   "direct_saving": 3614,
+   "downstream_comp": -787620,
+   "rho_comp": -217.93580520199225,
+   "d_delta": 0.9913793103448276,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    74376,
+    74376,
+    74376,
+    74376,
+    74376
+   ],
+   "rt_Btot": [
+    865610,
+    865610,
+    865610,
+    865610,
+    865610
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "383cbac_2",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -72041.8,
+   "direct_saving": 159,
+   "downstream_comp": 72200.8,
+   "rho_comp": 454.0930817610063,
+   "d_delta": 0.8590476190476191,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    96640,
+    96640,
+    96640,
+    96640,
+    105904
+   ],
+   "rt_Btot": [
+    26451,
+    26451,
+    26451,
+    26451,
+    26451
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "383cbac_2",
+   "inv": 8,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 417.40000000000146,
+   "direct_saving": 417.40000000000146,
+   "downstream_comp": 0,
+   "rho_comp": 0.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    19194,
+    19194,
+    19194,
+    19194,
+    19194
+   ],
+   "rt_Btot": [
+    19616,
+    19616,
+    19616,
+    19616,
+    19593
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 0,
+   "d_success": 1,
+   "net_saving": 960695.8,
+   "direct_saving": 3832,
+   "downstream_comp": -956863.8,
+   "rho_comp": -249.703496868476,
+   "d_delta": 0.9019585963881955,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    59081,
+    64531,
+    64531,
+    64531,
+    64531
+   ],
+   "rt_Btot": [
+    1329336,
+    947837,
+    947837,
+    947837,
+    947837
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -53465,
+   "direct_saving": 360,
+   "downstream_comp": 53825,
+   "rho_comp": 149.51388888888889,
+   "d_delta": 0.5384615384615384,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    407653,
+    407653,
+    407653,
+    407653,
+    407653
+   ],
+   "rt_Btot": [
+    354188,
+    354188,
+    354188,
+    354188,
+    354188
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 5,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": -14579,
+   "direct_saving": 1144,
+   "downstream_comp": 15723,
+   "rho_comp": 13.743881118881118,
+   "d_delta": 0.5,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    28212,
+    28212,
+    28212,
+    28212,
+    28212
+   ],
+   "rt_Btot": [
+    13633,
+    13633,
+    13633,
+    13633,
+    13633
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 0,
+   "strict_B": 1,
+   "d_success": -1,
+   "net_saving": 65567,
+   "direct_saving": 1740,
+   "downstream_comp": -63827,
+   "rho_comp": -36.68218390804598,
+   "d_delta": 0.875,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    50711,
+    50711,
+    50711,
+    50711,
+    50711
+   ],
+   "rt_Btot": [
+    116278,
+    116278,
+    116278,
+    116278,
+    116278
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -60108,
+   "direct_saving": 35,
+   "downstream_comp": 60143,
+   "rho_comp": 1718.3714285714286,
+   "d_delta": 0.7021276595744681,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    90559,
+    90559,
+    90559,
+    90559,
+    90559
+   ],
+   "rt_Btot": [
+    30451,
+    30451,
+    30451,
+    30451,
+    30451
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 6,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": 3625,
+   "direct_saving": 3620,
+   "downstream_comp": -5,
+   "rho_comp": -0.0013812154696132596,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    35839,
+    35839,
+    35839,
+    35839,
+    35839
+   ],
+   "rt_Btot": [
+    39464,
+    39464,
+    39464,
+    39464,
+    39464
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_2",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 0.8,
+   "d_success": 0.19999999999999996,
+   "net_saving": 47729.20000000001,
+   "direct_saving": 1059.7999999999993,
+   "downstream_comp": -46669.399999999994,
+   "rho_comp": -44.03604453670506,
+   "d_delta": 0.17433566433566433,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    80744,
+    86284,
+    86284,
+    86284,
+    86284
+   ],
+   "rt_Btot": [
+    317782,
+    86686,
+    86686,
+    86686,
+    86686
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_2",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -576683,
+   "direct_saving": 123,
+   "downstream_comp": 576806,
+   "rho_comp": 4689.4796747967475,
+   "d_delta": 0.9320987654320988,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    606605,
+    606605,
+    606605,
+    606605,
+    606605
+   ],
+   "rt_Btot": [
+    29922,
+    29922,
+    29922,
+    29922,
+    29922
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_2",
+   "inv": 7,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 39492,
+   "direct_saving": 3315,
+   "downstream_comp": -36177,
+   "rho_comp": -10.913122171945702,
+   "d_delta": 0.3333333333333333,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    34724,
+    34724,
+    34724,
+    34724,
+    34724
+   ],
+   "rt_Btot": [
+    74216,
+    74216,
+    74216,
+    74216,
+    74216
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_3",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": -19421.600000000006,
+   "direct_saving": 911,
+   "downstream_comp": 20332.600000000006,
+   "rho_comp": 22.318990120746438,
+   "d_delta": 0.3255570117955439,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    94276,
+    75278,
+    75278,
+    75278,
+    75278
+   ],
+   "rt_Btot": [
+    59656,
+    59656,
+    59656,
+    59656,
+    59656
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_3",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": 648070,
+   "direct_saving": 151,
+   "downstream_comp": -647919,
+   "rho_comp": -4290.854304635762,
+   "d_delta": 0.9817073170731707,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    612895,
+    612895,
+    612895,
+    612895,
+    612895
+   ],
+   "rt_Btot": [
+    1260965,
+    1260965,
+    1260965,
+    1260965,
+    1260965
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_3",
+   "inv": 7,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 0,
+   "d_success": 1,
+   "net_saving": 15722,
+   "direct_saving": 263,
+   "downstream_comp": -15459,
+   "rho_comp": -58.77946768060836,
+   "d_delta": 0.3333333333333333,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    20073,
+    20073,
+    20073,
+    20073,
+    20073
+   ],
+   "rt_Btot": [
+    35795,
+    35795,
+    35795,
+    35795,
+    35795
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": 54177.6,
+   "direct_saving": 3731,
+   "downstream_comp": -50446.6,
+   "rho_comp": -13.520932725810773,
+   "d_delta": 0.9230769230769231,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    40938,
+    41201,
+    41201,
+    41201,
+    41201
+   ],
+   "rt_Btot": [
+    95326,
+    95326,
+    95326,
+    95326,
+    95326
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 2,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -223188,
+   "direct_saving": 168,
+   "downstream_comp": 223356,
+   "rho_comp": 1329.5,
+   "d_delta": 0.9803921568627451,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    345195,
+    345195,
+    345195,
+    345195,
+    345195
+   ],
+   "rt_Btot": [
+    122007,
+    122007,
+    122007,
+    122007,
+    122007
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 4,
+   "pos": "late",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "other",
+   "strict_T": 0,
+   "strict_B": 1,
+   "d_success": -1,
+   "net_saving": 177243.2,
+   "direct_saving": 1200,
+   "downstream_comp": -176043.2,
+   "rho_comp": -146.7026666666667,
+   "d_delta": 0.9523809523809523,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    36142,
+    36142,
+    36142,
+    36142,
+    36142
+   ],
+   "rt_Btot": [
+    217258,
+    212417,
+    212417,
+    212417,
+    212417
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 5,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 0,
+   "d_success": 1,
+   "net_saving": 28647,
+   "direct_saving": 3391,
+   "downstream_comp": -25256,
+   "rho_comp": -7.447950457092303,
+   "d_delta": 0.3333333333333333,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    27521,
+    27521,
+    27521,
+    27521,
+    27521
+   ],
+   "rt_Btot": [
+    56168,
+    56168,
+    56168,
+    56168,
+    56168
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 0,
+   "strict_B": 1,
+   "d_success": -1,
+   "net_saving": -29460,
+   "direct_saving": 1037,
+   "downstream_comp": 30497,
+   "rho_comp": 29.40887174541948,
+   "d_delta": 0.46153846153846156,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    144812,
+    144812,
+    144812,
+    144812,
+    144812
+   ],
+   "rt_Btot": [
+    115352,
+    115352,
+    115352,
+    115352,
+    115352
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 2,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": 68608,
+   "direct_saving": -21,
+   "downstream_comp": -68629,
+   "rho_comp": -68628999999999.99,
+   "d_delta": 0.9016393442622951,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    100100,
+    100100,
+    100100,
+    100100,
+    100100
+   ],
+   "rt_Btot": [
+    168708,
+    168708,
+    168708,
+    168708,
+    168708
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 6,
+   "pos": "late",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "other",
+   "strict_T": 1,
+   "strict_B": 0,
+   "d_success": 1,
+   "net_saving": -33344,
+   "direct_saving": 3570,
+   "downstream_comp": 36914,
+   "rho_comp": 10.340056022408964,
+   "d_delta": 0.9811320754716981,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    140542,
+    140542,
+    140542,
+    140542,
+    140542
+   ],
+   "rt_Btot": [
+    107198,
+    107198,
+    107198,
+    107198,
+    107198
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 7,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": 2338,
+   "direct_saving": 2341,
+   "downstream_comp": 3,
+   "rho_comp": 0.0012815036309269544,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    61198,
+    61198,
+    61198,
+    61198,
+    61198
+   ],
+   "rt_Btot": [
+    63536,
+    63536,
+    63536,
+    63536,
+    63536
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 0.8,
+   "strict_B": 1,
+   "d_success": -0.19999999999999996,
+   "net_saving": 5279,
+   "direct_saving": 1251,
+   "downstream_comp": -4028,
+   "rho_comp": -3.21982414068745,
+   "d_delta": 0.21764705882352942,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    63548,
+    126488,
+    126488,
+    126488,
+    126488
+   ],
+   "rt_Btot": [
+    119179,
+    119179,
+    119179,
+    119179,
+    119179
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 5,
+   "pos": "late",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "other",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": -11765,
+   "direct_saving": 4013,
+   "downstream_comp": 15778,
+   "rho_comp": 3.931721903812609,
+   "d_delta": 0.050505050505050504,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    160248,
+    160248,
+    160248,
+    160248,
+    160248
+   ],
+   "rt_Btot": [
+    148483,
+    148483,
+    148483,
+    148483,
+    148483
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 6,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 2543,
+   "direct_saving": 2543,
+   "downstream_comp": 0,
+   "rho_comp": 0.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    29054,
+    29054,
+    29054,
+    29054,
+    29054
+   ],
+   "rt_Btot": [
+    31597,
+    31597,
+    31597,
+    31597,
+    31597
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "6bdbc26_1",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": -505,
+   "direct_saving": -921,
+   "downstream_comp": -416,
+   "rho_comp": -416000000000.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    35423,
+    35423,
+    35423,
+    35423,
+    35423
+   ],
+   "rt_Btot": [
+    34918,
+    34918,
+    34918,
+    34918,
+    34918
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "6bdbc26_1",
+   "inv": 5,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 76,
+   "direct_saving": 76,
+   "downstream_comp": 0,
+   "rho_comp": 0.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    4973,
+    4973,
+    4973,
+    4973,
+    4973
+   ],
+   "rt_Btot": [
+    5049,
+    5049,
+    5049,
+    5049,
+    5049
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "6bdbc26_2",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": -526,
+   "direct_saving": -921,
+   "downstream_comp": -395,
+   "rho_comp": -395000000000.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    35320,
+    35320,
+    35320,
+    35320,
+    35320
+   ],
+   "rt_Btot": [
+    34794,
+    34794,
+    34794,
+    34794,
+    34794
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "6bdbc26_2",
+   "inv": 5,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 86,
+   "direct_saving": 86,
+   "downstream_comp": 0,
+   "rho_comp": 0.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    4948,
+    4948,
+    4948,
+    4948,
+    4948
+   ],
+   "rt_Btot": [
+    5034,
+    5034,
+    5034,
+    5034,
+    5034
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "6bdbc26_3",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": -461,
+   "direct_saving": -921,
+   "downstream_comp": -460,
+   "rho_comp": -460000000000.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    35352,
+    35352,
+    35352,
+    35352,
+    35352
+   ],
+   "rt_Btot": [
+    34891,
+    34891,
+    34891,
+    34891,
+    34891
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "6bdbc26_3",
+   "inv": 5,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 120,
+   "direct_saving": 120,
+   "downstream_comp": 0,
+   "rho_comp": 0.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    4927,
+    4927,
+    4927,
+    4927,
+    4927
+   ],
+   "rt_Btot": [
+    5047,
+    5047,
+    5047,
+    5047,
+    5047
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "fac291d_1",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 0,
+   "strict_B": 1,
+   "d_success": -1,
+   "net_saving": -2476081,
+   "direct_saving": 494,
+   "downstream_comp": 2476575,
+   "rho_comp": 5013.30971659919,
+   "d_delta": 0.9919354838709677,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    2526965,
+    2526965,
+    2526965,
+    2526965,
+    2526965
+   ],
+   "rt_Btot": [
+    50884,
+    50884,
+    50884,
+    50884,
+    50884
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "fac291d_1",
+   "inv": 5,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 1,
+   "strict_B": 1,
+   "d_success": 0,
+   "net_saving": 86,
+   "direct_saving": 86,
+   "downstream_comp": 0,
+   "rho_comp": 0.0,
+   "d_delta": 0.0,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    27502,
+    27502,
+    27502,
+    27502,
+    27502
+   ],
+   "rt_Btot": [
+    27588,
+    27588,
+    27588,
+    27588,
+    27588
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "fac291d_2",
+   "inv": 0,
+   "pos": "early",
+   "call": "no_call",
+   "write": "no_call",
+   "novel": "repeat",
+   "n_calls": 0,
+   "node": "tool_selection",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -351730.6,
+   "direct_saving": 494,
+   "downstream_comp": 352224.6,
+   "rho_comp": 713.0052631578947,
+   "d_delta": 0.6118113141592061,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    1806746,
+    39558,
+    39558,
+    39558,
+    39558
+   ],
+   "rt_Btot": [
+    51577,
+    38687,
+    38687,
+    38687,
+    38687
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "fac291d_2",
+   "inv": 4,
+   "pos": "late",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "final_synthesis",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": 3175,
+   "direct_saving": 3686,
+   "downstream_comp": 511,
+   "rho_comp": 0.1386326641345632,
+   "d_delta": 0.5714285714285714,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    23614,
+    23614,
+    23614,
+    23614,
+    23614
+   ],
+   "rt_Btot": [
+    26789,
+    26789,
+    26789,
+    26789,
+    26789
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "tau2_rows": [
+  {
+   "task": "4ec8de5_1",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": 4537.700000000004,
+   "direct_saving": 69.59999999999991,
+   "downstream_comp": -4468.100000000006,
+   "rho_comp": -64.19683908045994,
+   "d_delta": 0.25116279069767444,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    46248,
+    46260,
+    46355,
+    46303,
+    46259,
+    46286,
+    46350,
+    46458,
+    45994,
+    46314
+   ],
+   "rt_Btot": [
+    41606,
+    58503,
+    56131,
+    41756,
+    42918,
+    54736,
+    70053,
+    54595,
+    46516,
+    41390
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 2,
+   "pos": "early",
+   "call": "single",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -7997.300000000003,
+   "direct_saving": -23,
+   "downstream_comp": 7974.300000000003,
+   "rho_comp": 7974300000000.002,
+   "d_delta": 0.06413554244042048,
+   "zero_detour_delta": true,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    47781,
+    48877,
+    48350,
+    62686,
+    47181,
+    42785,
+    64460,
+    61610,
+    48406,
+    60239
+   ],
+   "rt_Btot": [
+    43932,
+    45115,
+    44243,
+    43483,
+    57306,
+    43903,
+    43681,
+    44094,
+    42656,
+    43989
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 3,
+   "pos": "early",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": 8420.700000000004,
+   "direct_saving": -17,
+   "downstream_comp": -8437.700000000004,
+   "rho_comp": -8437700000000.004,
+   "d_delta": 0.007517182190569294,
+   "zero_detour_delta": true,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    37836,
+    37617,
+    41400,
+    53010,
+    41235,
+    41704,
+    41779,
+    37067,
+    55473,
+    41795
+   ],
+   "rt_Btot": [
+    41450,
+    41359,
+    41244,
+    69273,
+    68273,
+    37154,
+    41770,
+    41416,
+    94027,
+    37157
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 4,
+   "pos": "middle",
+   "call": "multi",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 2,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -387.90000000000146,
+   "direct_saving": 210,
+   "downstream_comp": 597.9000000000015,
+   "rho_comp": 2.847142857142864,
+   "d_delta": 0.23555593824763071,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    57151,
+    51476,
+    47659,
+    44629,
+    36901,
+    36823,
+    37172,
+    36876,
+    49162,
+    36054
+   ],
+   "rt_Btot": [
+    53437,
+    40125,
+    40295,
+    40652,
+    39792,
+    41884,
+    39602,
+    39922,
+    53205,
+    41110
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 5,
+   "pos": "middle",
+   "call": "multi",
+   "write": "write",
+   "novel": "repeat",
+   "n_calls": 2,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": 2961.0,
+   "direct_saving": 77,
+   "downstream_comp": -2884.0,
+   "rho_comp": -37.45454545454545,
+   "d_delta": 0.12868790069561395,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    36154,
+    36193,
+    35999,
+    36482,
+    36094,
+    75734,
+    35841,
+    50155,
+    36518,
+    49956
+   ],
+   "rt_Btot": [
+    35802,
+    77230,
+    39492,
+    39035,
+    38793,
+    52041,
+    53709,
+    39131,
+    36286,
+    47217
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 6,
+   "pos": "middle",
+   "call": "multi",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 2,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -2605.5,
+   "direct_saving": -476.2999999999993,
+   "downstream_comp": 2129.199999999997,
+   "rho_comp": 2129199999999.997,
+   "d_delta": 0.015447454844006586,
+   "zero_detour_delta": true,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    54344,
+    36837,
+    53198,
+    36975,
+    37024,
+    54444,
+    53749,
+    39301,
+    59552,
+    37815
+   ],
+   "rt_Btot": [
+    36245,
+    37441,
+    68764,
+    38533,
+    37132,
+    51804,
+    37482,
+    38591,
+    37096,
+    54096
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 7,
+   "pos": "late",
+   "call": "multi",
+   "write": "write",
+   "novel": "repeat",
+   "n_calls": 17,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -26879.399999999994,
+   "direct_saving": 438.7999999999993,
+   "downstream_comp": 27318.199999999997,
+   "rho_comp": 62.25660893345497,
+   "d_delta": 0.05318069520744373,
+   "zero_detour_delta": true,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    61721,
+    53618,
+    61587,
+    53525,
+    61787,
+    107725,
+    100585,
+    63272,
+    74923,
+    77164
+   ],
+   "rt_Btot": [
+    43266,
+    26607,
+    44251,
+    42436,
+    48540,
+    44231,
+    42178,
+    71465,
+    43024,
+    41115
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 8,
+   "pos": "late",
+   "call": "multi",
+   "write": "write",
+   "novel": "repeat",
+   "n_calls": 2,
+   "node": "tool_argument_generation",
+   "strict_T": 0,
+   "strict_B": 0,
+   "d_success": 0,
+   "net_saving": -27991.0,
+   "direct_saving": 143.0,
+   "downstream_comp": 28133.999999999996,
+   "rho_comp": 196.74125874125872,
+   "d_delta": 0.5016317669258846,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    55417,
+    54668,
+    54517,
+    54987,
+    97744,
+    54177,
+    54135,
+    96818,
+    49448,
+    54023
+   ],
+   "rt_Btot": [
+    51922,
+    33807,
+    33309,
+    32778,
+    32803,
+    31547,
+    33485,
+    31736,
+    31842,
+    32795
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0.7,
+   "strict_B": 1,
+   "d_success": -0.30000000000000004,
+   "net_saving": -7305.799999999988,
+   "direct_saving": -216.30000000000018,
+   "downstream_comp": 7089.5,
+   "rho_comp": 7089500000000.0,
+   "d_delta": 0.16463205829169897,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    100034,
+    132416,
+    131789,
+    163076,
+    132670,
+    153752,
+    100861,
+    154211,
+    132280,
+    131889
+   ],
+   "rt_Btot": [
+    131386,
+    124748,
+    96083,
+    130977,
+    130934,
+    172945,
+    98060,
+    130979,
+    96087,
+    147721
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 2,
+   "pos": "early",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "tool_argument_generation",
+   "strict_T": 0.9,
+   "strict_B": 1,
+   "d_success": -0.09999999999999998,
+   "net_saving": -5768.399999999994,
+   "direct_saving": -39,
+   "downstream_comp": 5729.399999999994,
+   "rho_comp": 5729399999999.994,
+   "d_delta": 0.004704146730462516,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    68331,
+    68326,
+    68423,
+    68331,
+    68222,
+    110256,
+    93801,
+    82306,
+    68326,
+    68110
+   ],
+   "rt_Btot": [
+    68183,
+    68275,
+    68284,
+    68292,
+    68183,
+    68287,
+    67619,
+    93042,
+    68291,
+    68292
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 3,
+   "pos": "early",
+   "call": "multi",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0.5,
+   "strict_B": 0.6,
+   "d_success": -0.09999999999999998,
+   "net_saving": 49805.899999999994,
+   "direct_saving": -37,
+   "downstream_comp": -49842.899999999994,
+   "rho_comp": -49842899999999.99,
+   "d_delta": 0.24787635798917218,
+   "zero_detour_delta": false,
+   "rt_T": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "rt_B": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "rt_Ttot": [
+    34776,
+    34777,
+    75822,
+    95899,
+    51418,
+    139548,
+    34777,
+    83504,
+    34777,
+    34777
+   ],
+   "rt_Btot": [
+    135993,
+    89157,
+    145085,
+    89980,
+    92298,
+    183436,
+    111507,
+    44836,
+    135471,
+    90371
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 4,
+   "pos": "early",
+   "call": "multi",
+   "write": "write",
+   "novel": "repeat",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0.4,
+   "strict_B": 1,
+   "d_success": -0.6,
+   "net_saving": 7417.399999999994,
+   "direct_saving": -24,
+   "downstream_comp": -7441.4000000000015,
+   "rho_comp": -7441400000000.001,
+   "d_delta": 0.1658444153748228,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    76300,
+    51759,
+    51394,
+    51420,
+    51420,
+    51420,
+    131404,
+    76529,
+    69962,
+    63703
+   ],
+   "rt_Btot": [
+    67318,
+    68495,
+    106394,
+    69621,
+    78834,
+    68527,
+    68527,
+    68527,
+    65932,
+    87310
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 5,
+   "pos": "middle",
+   "call": "multi",
+   "write": "write",
+   "novel": "repeat",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0.9,
+   "strict_B": 0,
+   "d_success": 0.9,
+   "net_saving": -52049.999999999985,
+   "direct_saving": 210.10000000000036,
+   "downstream_comp": 52260.09999999999,
+   "rho_comp": 248.739171822941,
+   "d_delta": 0.29641127094131453,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    106770,
+    102931,
+    158008,
+    157122,
+    144795,
+    176731,
+    134110,
+    176899,
+    125274,
+    156403
+   ],
+   "rt_Btot": [
+    92642,
+    93301,
+    92845,
+    93043,
+    93023,
+    92687,
+    92966,
+    82030,
+    93108,
+    92898
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 6,
+   "pos": "middle",
+   "call": "single",
+   "write": "write",
+   "novel": "repeat",
+   "n_calls": 1,
+   "node": "tool_argument_generation",
+   "strict_T": 1,
+   "strict_B": 0.75,
+   "d_success": 0.25,
+   "net_saving": -68130.41666666666,
+   "direct_saving": 273.625,
+   "downstream_comp": 68404.04166666666,
+   "rho_comp": 249.9919293436881,
+   "d_delta": 0.28388785438640174,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "rt_Ttot": [
+    128914,
+    128891,
+    185788,
+    130021,
+    125959,
+    188536
+   ],
+   "rt_Btot": [
+    95151,
+    125521,
+    111921,
+    23962,
+    78336,
+    82527,
+    23960,
+    97724
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 2,
+   "node": "tool_argument_generation",
+   "strict_T": 0.2,
+   "strict_B": 0.1,
+   "d_success": 0.1,
+   "net_saving": -12013.5,
+   "direct_saving": -285.3000000000002,
+   "downstream_comp": 11728.199999999983,
+   "rho_comp": 11728199999999.982,
+   "d_delta": 0.06728863095743542,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "rt_B": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    149417,
+    157618,
+    120886,
+    156421,
+    102054,
+    130977,
+    244901,
+    155090,
+    157630,
+    157665
+   ],
+   "rt_Btot": [
+    211066,
+    154154,
+    128706,
+    154195,
+    99480,
+    128737,
+    99207,
+    154116,
+    154156,
+    128707
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 2,
+   "pos": "early",
+   "call": "single",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "tool_argument_generation",
+   "strict_T": 0.7,
+   "strict_B": 0.9,
+   "d_success": -0.20000000000000007,
+   "net_saving": 24030.399999999994,
+   "direct_saving": -175,
+   "downstream_comp": -24205.399999999994,
+   "rho_comp": -24205399999999.992,
+   "d_delta": 0.027616314113489734,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    234377,
+    136342,
+    86451,
+    234794,
+    234796,
+    233177,
+    234836,
+    234365,
+    234698,
+    136324
+   ],
+   "rt_Btot": [
+    262339,
+    234209,
+    238401,
+    234640,
+    231235,
+    128015,
+    152115,
+    235373,
+    262256,
+    261881
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 3,
+   "pos": "early",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "tool_argument_generation",
+   "strict_T": 0.9,
+   "strict_B": 0.7,
+   "d_success": 0.20000000000000007,
+   "net_saving": -12516.600000000006,
+   "direct_saving": -1,
+   "downstream_comp": 12515.600000000006,
+   "rho_comp": 12515600000000.006,
+   "d_delta": 0.0336086649732754,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "rt_B": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "rt_Ttot": [
+    183298,
+    196137,
+    108994,
+    182807,
+    183490,
+    183057,
+    183061,
+    182815,
+    104847,
+    183045
+   ],
+   "rt_Btot": [
+    165899,
+    183056,
+    148192,
+    109151,
+    183056,
+    183055,
+    183026,
+    183056,
+    109040,
+    118854
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 4,
+   "pos": "early",
+   "call": "multi",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 1,
+   "strict_B": 0.1111111111111111,
+   "d_success": 0.8888888888888888,
+   "net_saving": -77445.33333333333,
+   "direct_saving": 346,
+   "downstream_comp": 77791.33333333333,
+   "rho_comp": 224.8304431599229,
+   "d_delta": 0.3695482385826448,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "rt_Ttot": [
+    185519,
+    185546,
+    185596,
+    185571,
+    185519,
+    185547,
+    185467,
+    185587
+   ],
+   "rt_Btot": [
+    98304,
+    98511,
+    98583,
+    98304,
+    98304,
+    98304,
+    185967,
+    98307,
+    98304
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 1,
+   "pos": "early",
+   "call": "multi",
+   "write": "read_only",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0.9,
+   "strict_B": 0.6,
+   "d_success": 0.30000000000000004,
+   "net_saving": -12907.299999999988,
+   "direct_saving": -63,
+   "downstream_comp": 12844.299999999988,
+   "rho_comp": 12844299999999.988,
+   "d_delta": 0.17889269717289352,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rt_Ttot": [
+    154549,
+    107650,
+    171436,
+    86566,
+    135400,
+    143171,
+    251270,
+    98135,
+    108214,
+    145913
+   ],
+   "rt_Btot": [
+    175045,
+    147762,
+    53540,
+    164783,
+    164307,
+    192766,
+    53540,
+    131100,
+    53540,
+    136848
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 2,
+   "pos": "early",
+   "call": "single",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 1,
+   "node": "tool_argument_generation",
+   "strict_T": 0.9,
+   "strict_B": 1,
+   "d_success": -0.09999999999999998,
+   "net_saving": 31903.399999999994,
+   "direct_saving": -20,
+   "downstream_comp": -31923.399999999994,
+   "rho_comp": -31923399999999.992,
+   "d_delta": 0.03956648155207737,
+   "zero_detour_delta": true,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    177452,
+    226705,
+    240256,
+    125812,
+    171182,
+    161310,
+    104147,
+    66585,
+    120071,
+    148250
+   ],
+   "rt_Btot": [
+    196463,
+    262622,
+    271713,
+    270178,
+    147505,
+    145904,
+    123771,
+    166674,
+    157558,
+    118416
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 3,
+   "pos": "early",
+   "call": "multi",
+   "write": "write",
+   "novel": "new",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 1,
+   "strict_B": 0.9,
+   "d_success": 0.09999999999999998,
+   "net_saving": -38998.80000000002,
+   "direct_saving": 14.5,
+   "downstream_comp": 39013.30000000002,
+   "rho_comp": 2690.5724137931047,
+   "d_delta": 0.20781471997101333,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    145578,
+    99271,
+    250669,
+    250564,
+    254758,
+    225372,
+    227451,
+    146745,
+    220920,
+    86364
+   ],
+   "rt_Btot": [
+    189443,
+    120498,
+    87584,
+    175105,
+    138384,
+    159024,
+    56215,
+    105402,
+    188544,
+    297505
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 4,
+   "pos": "middle",
+   "call": "multi",
+   "write": "write",
+   "novel": "repeat",
+   "n_calls": 3,
+   "node": "tool_argument_generation",
+   "strict_T": 0.7,
+   "strict_B": 1,
+   "d_success": -0.30000000000000004,
+   "net_saving": 13552.588888888888,
+   "direct_saving": 10,
+   "downstream_comp": -13542.588888888873,
+   "rho_comp": -1354.2588888888872,
+   "d_delta": 0.2554159195662328,
+   "zero_detour_delta": false,
+   "rt_T": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rt_B": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rt_Ttot": [
+    138744,
+    215212,
+    131770,
+    33899,
+    104504,
+    164398,
+    145320,
+    132280,
+    209546,
+    66390
+   ],
+   "rt_Btot": [
+    106331,
+    122008,
+    144203,
+    159149,
+    170739,
+    182160,
+    104245,
+    185030,
+    155965
+   ],
+   "rt_colT": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ]
+}

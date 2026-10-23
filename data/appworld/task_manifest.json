@@ -1,0 +1,1371 @@
+{
+  "manifest_version": "stage10-task-manifest/v1",
+  "description": "Manifest for the six check_point_traces batches. TaskCondition is read ONLY from this manifest (14.2.3); entries derived from the traces themselves (executed tool apps), the pilot entry is hand-crafted.",
+  "tasks": [
+    {
+      "task_id": "0d8a4ee_1",
+      "statement": "Send the following phone message to my parents and siblings, who do not have a venmo account, \"Please get on venmo.\".",
+      "task_type": "phone_messaging",
+      "involved_apps": [
+        "phone"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "pilot",
+      "world_variant": "default",
+      "evaluator": {}
+    },
+    {
+      "task_id": "0d8a4ee_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "0d8a4ee_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "21abae1_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "appworld",
+      "involved_apps": [],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 5
+      }
+    },
+    {
+      "task_id": "23cf851_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "venmo",
+      "involved_apps": [
+        "venmo"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 5
+      }
+    },
+    {
+      "task_id": "23cf851_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "venmo",
+      "involved_apps": [
+        "venmo"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 5
+      }
+    },
+    {
+      "task_id": "23cf851_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "venmo",
+      "involved_apps": [
+        "venmo"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 5
+      }
+    },
+    {
+      "task_id": "29a7b7e_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "appworld",
+      "involved_apps": [],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 6
+      }
+    },
+    {
+      "task_id": "2d9f728_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "appworld",
+      "involved_apps": [],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "3",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "37a8675_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "37a8675_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "37a8675_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "383cbac_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 2,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "383cbac_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 2,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "383cbac_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 2,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "396c5a2_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "396c5a2_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "396c5a2_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "3ab5b8b_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "3ab5b8b_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "3ab5b8b_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "3d9a636_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "appworld",
+      "involved_apps": [],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "4ec8de5_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "4ec8de5_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "4ec8de5_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "4fab96f_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "4fab96f_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "4fab96f_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "50e1ac9_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 10
+      }
+    },
+    {
+      "task_id": "50e1ac9_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 10
+      }
+    },
+    {
+      "task_id": "50e1ac9_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 10
+      }
+    },
+    {
+      "task_id": "530b157_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "3",
+        "num_apps": 2,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "530b157_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "3",
+        "num_apps": 2,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "530b157_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "3",
+        "num_apps": 2,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "57c3486_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "57c3486_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "57c3486_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "6171bbc_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "6171bbc_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "6171bbc_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "68ee2c9_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "file_system",
+      "involved_apps": [
+        "file_system"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "68ee2c9_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "file_system",
+      "involved_apps": [
+        "file_system"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "68ee2c9_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "file_system",
+      "involved_apps": [
+        "file_system"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "6bdbc26_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 6
+      }
+    },
+    {
+      "task_id": "6bdbc26_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 6
+      }
+    },
+    {
+      "task_id": "6bdbc26_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 6
+      }
+    },
+    {
+      "task_id": "6c2c621_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "file_system+simple_note",
+      "involved_apps": [
+        "file_system",
+        "simple_note"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "6c2c621_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "file_system+simple_note",
+      "involved_apps": [
+        "file_system",
+        "simple_note"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "6c2c621_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "file_system+simple_note",
+      "involved_apps": [
+        "file_system",
+        "simple_note"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "8ce6779_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "appworld",
+      "involved_apps": [],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "3",
+        "num_apps": 2,
+        "num_apis": 11
+      }
+    },
+    {
+      "task_id": "9016950_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "appworld",
+      "involved_apps": [],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "3",
+        "num_apps": 2,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "b119b1f_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "b119b1f_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "b119b1f_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "d4e9306_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "d4e9306_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "d4e9306_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 9
+      }
+    },
+    {
+      "task_id": "df61dc5_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "df61dc5_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "df61dc5_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "phone+venmo",
+      "involved_apps": [
+        "phone",
+        "venmo"
+      ],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "f323bae_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "appworld",
+      "involved_apps": [],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "3",
+        "num_apps": 2,
+        "num_apis": 8
+      }
+    },
+    {
+      "task_id": "fac291d_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "fac291d_2",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "fac291d_3",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "spotify",
+      "involved_apps": [
+        "spotify"
+      ],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "2",
+        "num_apps": 1,
+        "num_apis": 7
+      }
+    },
+    {
+      "task_id": "fd1f8fa_1",
+      "statement": "(loaded from AppWorld task)",
+      "task_type": "appworld",
+      "involved_apps": [],
+      "cross_app": false,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "batch1",
+      "world_variant": "default",
+      "evaluator": {
+        "difficulty": "1",
+        "num_apps": 1,
+        "num_apis": 8
+      }
+    }
+  ]
+}

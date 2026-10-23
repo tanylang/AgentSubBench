@@ -1,0 +1,4 @@
+# shell 脚本必须保持 LF(sbatch 拒收 CRLF;scp/rsync 同步也依赖 LF)
+*.sh text eol=lf
+# Python 统一 LF,避免服务器端运行时换行问题
+*.py text eol=lf

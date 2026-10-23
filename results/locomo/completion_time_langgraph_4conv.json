@@ -1,0 +1,68 @@
+{
+ "label": "4conv",
+ "lines": 31800,
+ "arms_seen": {
+  "T_span": 10600,
+  "B": 10600,
+  "I": 10600
+ },
+ "n_missing_elapsed": 0,
+ "conv_rows": [
+  {
+   "conversation": "conv-30",
+   "label": "4conv",
+   "W_B_s": 7.63,
+   "n_B": 1630,
+   "W_T_span_s": 6.62,
+   "n_T_span": 1630,
+   "delta_s": -1.01,
+   "saving_pct": 13.2
+  },
+  {
+   "conversation": "conv-41",
+   "label": "4conv",
+   "W_B_s": 12.61,
+   "n_B": 2560,
+   "W_T_span_s": 11.5,
+   "n_T_span": 2560,
+   "delta_s": -1.11,
+   "saving_pct": 8.8
+  },
+  {
+   "conversation": "conv-42",
+   "label": "4conv",
+   "W_B_s": 14.87,
+   "n_B": 3180,
+   "W_T_span_s": 14.65,
+   "n_T_span": 3180,
+   "delta_s": -0.22,
+   "saving_pct": 1.5
+  },
+  {
+   "conversation": "conv-43",
+   "label": "4conv",
+   "W_B_s": 13.04,
+   "n_B": 3230,
+   "W_T_span_s": 11.71,
+   "n_T_span": 3230,
+   "delta_s": -1.33,
+   "saving_pct": 10.2
+  }
+ ],
+ "overall": {
+  "W_B_s": 12.65,
+  "n_B": 10600,
+  "W_T_span_s": 11.76,
+  "n_T_span": 10600,
+  "delta_s": -0.89,
+  "saving_pct": 7.0
+ },
+ "paired": {
+  "n_spans": 1060,
+  "mean_delta_s": -0.9,
+  "ci95": [
+   -2.59,
+   0.8
+  ]
+ }
+}

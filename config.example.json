@@ -1,0 +1,67 @@
+{
+  "_comment": "Stage 10 配置。拿到 SLM 部署地址后：1) 把 base_url 改成你的 SLM 服务根地址（OpenAI 兼容 /v1），2) models 填候选模型名，3) 通过环境变量注入密钥（推荐）或直接填 api_key。baseline_llm 指向代表性 Agent 的基线 LLM（可与 SLM 同源不同模型）。",
+  "offline": false,
+  "baseline_llm": {
+    "base_url": "http://your-baseline-llm-host:8000/v1",
+    "api_key_env": "BASELINE_API_KEY",
+    "model": "qwen3-32b-instruct",
+    "temperature": 0.0,
+    "max_output_tokens": 8192,
+    "price_per_1k_input": 1.0,
+    "price_per_1k_output": 3.0,
+    "timeout_s": 300,
+    "max_retries": 3
+  },
+  "slm": {
+    "base_url": "http://your-slm-host:8000/v1",
+    "api_key_env": "SLM_API_KEY",
+    "model": "qwen3-4b-instruct",
+    "models": ["qwen3-4b-instruct"],
+    "temperature": 0.0,
+    "max_output_tokens": 8192,
+    "price_per_1k_input": 0.05,
+    "price_per_1k_output": 0.3,
+    "timeout_s": 120,
+    "max_retries": 3
+  },
+  "judge": {
+    "_comment": "验证器 LLM 裁判(逐题判定,与采集端 validate_locomot 同口径)。采集端/卸载端分离:服务器上由 slurm 现场生成,不读 $TRACE_COLLECT/config.json。",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "JUDGE_API_KEY",
+    "model": "deepseek-v4-flash",
+    "temperature": 0.0,
+    "max_output_tokens": 8192,
+    "timeout_s": 120,
+    "max_retries": 3
+  },
+  "replay": {
+    "_comment": "fallback_mode: none | recorded_baseline | live_baseline（14.5 fallback 块）",
+    "fallback_mode": "recorded_baseline",
+    "max_remaining_steps_margin": 10,
+    "timeout_s": 600,
+    "budget_usd": 10,
+    "min_cell_samples": 10
+  },
+  "allowlist": {
+    "_comment": "14.8 静态 allowlist：结构规则(read_only+structured_output+strong_pre_commit_verifier) + LCB >= 阈值",
+    "lcb_threshold": 0.8,
+    "min_cell_samples": 10,
+    "rules": {
+      "read_only": true,
+      "structured_output": true,
+      "strong_pre_commit_verifier": true,
+      "lcb_above_threshold": true
+    }
+  },
+  "paths": {
+    "traces_dir": "data/traces",
+    "spans_path": "data/spans.jsonl",
+    "replays_path": "data/replays.jsonl",
+    "report_dir": "data/report",
+    "manifest_path": ""
+  },
+  "experiment": {
+    "pilot_tasks": [],
+    "heldout_tasks": []
+  }
+}

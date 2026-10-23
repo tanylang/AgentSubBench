@@ -1,0 +1,546 @@
+{
+ "clean_span_count": 53,
+ "per_span": [
+  {
+   "task": "21abae1_1",
+   "inv": 0,
+   "node_pattern": "tool_selection",
+   "control_role": "global_planner",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "21abae1_1",
+   "inv": 1,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 15.800000000000011,
+   "d_llm": 6.0,
+   "d_strict": 0,
+   "response_class": "C 纠正性响应"
+  },
+  {
+   "task": "21abae1_1",
+   "inv": 2,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -43.80000000000001,
+   "d_llm": -7,
+   "d_strict": 0.19999999999999996,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "21abae1_1",
+   "inv": 3,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -9.0,
+   "d_llm": -4.8,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "21abae1_1",
+   "inv": 4,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -3.2,
+   "d_llm": -3,
+   "d_strict": 0,
+   "response_class": "D 代价适应(成功)"
+  },
+  {
+   "task": "21abae1_1",
+   "inv": 5,
+   "node_pattern": "final_synthesis",
+   "control_role": "terminal",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_1",
+   "inv": 0,
+   "node_pattern": "tool_selection",
+   "control_role": "global_planner",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_1",
+   "inv": 1,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 23.400000000000006,
+   "d_llm": 8.599999999999998,
+   "d_strict": 0,
+   "response_class": "C 纠正性响应"
+  },
+  {
+   "task": "23cf851_1",
+   "inv": 2,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -48.39999999999999,
+   "d_llm": -5.799999999999997,
+   "d_strict": 0.19999999999999996,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_1",
+   "inv": 3,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -56.2,
+   "d_llm": -20,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_1",
+   "inv": 4,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -5,
+   "d_llm": -4.6,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_1",
+   "inv": 5,
+   "node_pattern": "final_synthesis",
+   "control_role": "terminal",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 0,
+   "node_pattern": "tool_selection",
+   "control_role": "global_planner",
+   "d_tools": 0,
+   "d_llm": 0.0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 1,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 24.0,
+   "d_llm": 0,
+   "d_strict": 0.20000000000000007,
+   "response_class": "E 基线不稳(不可归因)"
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 2,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -17.200000000000003,
+   "d_llm": -1.1999999999999993,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 3,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 17.8,
+   "d_llm": 10.0,
+   "d_strict": 0,
+   "response_class": "D 代价适应(成功)"
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 4,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 9.6,
+   "d_llm": 5.6000000000000005,
+   "d_strict": 0,
+   "response_class": "D 代价适应(成功)"
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 5,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 7.6,
+   "d_llm": 5,
+   "d_strict": 0,
+   "response_class": "D 代价适应(成功)"
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 6,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 2.5999999999999996,
+   "d_llm": 1.7999999999999998,
+   "d_strict": 0,
+   "response_class": "D 代价适应(成功)"
+  },
+  {
+   "task": "23cf851_2",
+   "inv": 7,
+   "node_pattern": "final_synthesis",
+   "control_role": "terminal",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 0,
+   "node_pattern": "tool_selection",
+   "control_role": "global_planner",
+   "d_tools": 0.0,
+   "d_llm": 0.20000000000000018,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 1,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 13,
+   "d_llm": 6.199999999999999,
+   "d_strict": -0.4,
+   "response_class": "F 放大失败"
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 2,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -64.0,
+   "d_llm": 0.40000000000000213,
+   "d_strict": 0.0,
+   "response_class": "E 基线不稳(不可归因)"
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 3,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -1.6000000000000014,
+   "d_llm": 1.0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 4,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -9.2,
+   "d_llm": -7.800000000000001,
+   "d_strict": -1,
+   "response_class": "F 放大失败"
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 5,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -1.6000000000000005,
+   "d_llm": -0.6000000000000005,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "23cf851_3",
+   "inv": 6,
+   "node_pattern": "final_synthesis",
+   "control_role": "terminal",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 0,
+   "node_pattern": "tool_selection",
+   "control_role": "global_planner",
+   "d_tools": 0.40000000000000036,
+   "d_llm": 0.0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 1,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 61,
+   "d_llm": 4.0,
+   "d_strict": 0.20000000000000007,
+   "response_class": "E 基线不稳(不可归因)"
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 2,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -73.4,
+   "d_llm": -4.199999999999999,
+   "d_strict": 0.0,
+   "response_class": "E 基线不稳(不可归因)"
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 3,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 1.8000000000000043,
+   "d_llm": 2.8000000000000007,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 4,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -7.199999999999999,
+   "d_llm": -5.4,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_1",
+   "inv": 5,
+   "node_pattern": "final_synthesis",
+   "control_role": "terminal",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 0,
+   "node_pattern": "tool_selection",
+   "control_role": "global_planner",
+   "d_tools": -1.1999999999999993,
+   "d_llm": -0.7999999999999998,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 1,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -19.400000000000006,
+   "d_llm": -2.0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 2,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 16.799999999999983,
+   "d_llm": 1.4000000000000021,
+   "d_strict": 0.4,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 3,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 116.4,
+   "d_llm": 16.4,
+   "d_strict": -0.6000000000000001,
+   "response_class": "F 放大失败"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 4,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 75.4,
+   "d_llm": 13.0,
+   "d_strict": -0.19999999999999996,
+   "response_class": "F 放大失败"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 5,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 10.200000000000001,
+   "d_llm": 7.199999999999999,
+   "d_strict": 0,
+   "response_class": "D 代价适应(成功)"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 6,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -1.4000000000000004,
+   "d_llm": -0.7999999999999998,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 7,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -1.4000000000000004,
+   "d_llm": -1.0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 8,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -3.4000000000000004,
+   "d_llm": -3.4000000000000004,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 9,
+   "node_pattern": "final_synthesis",
+   "control_role": "terminal",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "383cbac_3",
+   "inv": 10,
+   "node_pattern": "final_synthesis",
+   "control_role": "terminal",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 0,
+   "node_pattern": "tool_selection",
+   "control_role": "global_planner",
+   "d_tools": 2,
+   "d_llm": 0.1999999999999993,
+   "d_strict": -0.19999999999999996,
+   "response_class": "F 放大失败"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 1,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -124.99999999999999,
+   "d_llm": -23.799999999999997,
+   "d_strict": 0.19999999999999996,
+   "response_class": "E 基线不稳(不可归因)"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 2,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -57.0,
+   "d_llm": -5.199999999999999,
+   "d_strict": 0.2,
+   "response_class": "E 基线不稳(不可归因)"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 3,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -36.2,
+   "d_llm": -4.6,
+   "d_strict": -0.19999999999999996,
+   "response_class": "F 放大失败"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 4,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 5.799999999999997,
+   "d_llm": 29.6,
+   "d_strict": -0.4,
+   "response_class": "F 放大失败"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 5,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 21.799999999999997,
+   "d_llm": 27.4,
+   "d_strict": -0.20000000000000007,
+   "response_class": "F 放大失败"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 6,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": -7.600000000000001,
+   "d_llm": 1.5999999999999996,
+   "d_strict": -0.19999999999999996,
+   "response_class": "F 放大失败"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 7,
+   "node_pattern": "tool_argument_generation",
+   "control_role": "local_executor",
+   "d_tools": 17.8,
+   "d_llm": 2.3999999999999995,
+   "d_strict": 0,
+   "response_class": "D 代价适应(成功)"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 8,
+   "node_pattern": "final_synthesis",
+   "control_role": "terminal",
+   "d_tools": 0,
+   "d_llm": 0,
+   "d_strict": 0,
+   "response_class": "B 良性分歧(语义变化、结构不变)"
+  }
+ ],
+ "response_classes": {
+  "B 良性分歧(语义变化、结构不变)": 29,
+  "C 纠正性响应": 2,
+  "D 代价适应(成功)": 7,
+  "E 基线不稳(不可归因)": 6,
+  "F 放大失败": 9
+ },
+ "variance": {
+  "within": 1393.869433962264,
+  "intervention": 1204.9507155571378
+ }
+}

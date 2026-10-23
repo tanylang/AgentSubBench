@@ -1,0 +1,128 @@
+{
+ "label": "10conv",
+ "lines": 78690,
+ "arms_seen": {
+  "B": 26230,
+  "I": 26230,
+  "T_span": 26230
+ },
+ "n_missing_elapsed": 0,
+ "conv_rows": [
+  {
+   "conversation": "conv-26",
+   "label": "10conv",
+   "W_B_s": 10.28,
+   "n_B": 2570,
+   "W_T_span_s": 10.06,
+   "n_T_span": 2570,
+   "delta_s": -0.21,
+   "saving_pct": 2.1
+  },
+  {
+   "conversation": "conv-30",
+   "label": "10conv",
+   "W_B_s": 7.63,
+   "n_B": 1630,
+   "W_T_span_s": 6.62,
+   "n_T_span": 1630,
+   "delta_s": -1.01,
+   "saving_pct": 13.2
+  },
+  {
+   "conversation": "conv-41",
+   "label": "10conv",
+   "W_B_s": 12.61,
+   "n_B": 2560,
+   "W_T_span_s": 11.5,
+   "n_T_span": 2560,
+   "delta_s": -1.11,
+   "saving_pct": 8.8
+  },
+  {
+   "conversation": "conv-42",
+   "label": "10conv",
+   "W_B_s": 14.87,
+   "n_B": 3180,
+   "W_T_span_s": 14.65,
+   "n_T_span": 3180,
+   "delta_s": -0.22,
+   "saving_pct": 1.5
+  },
+  {
+   "conversation": "conv-43",
+   "label": "10conv",
+   "W_B_s": 13.04,
+   "n_B": 3230,
+   "W_T_span_s": 11.71,
+   "n_T_span": 3230,
+   "delta_s": -1.33,
+   "saving_pct": 10.2
+  },
+  {
+   "conversation": "conv-44",
+   "label": "10conv",
+   "W_B_s": 11.16,
+   "n_B": 2150,
+   "W_T_span_s": 10.28,
+   "n_T_span": 2150,
+   "delta_s": -0.88,
+   "saving_pct": 7.9
+  },
+  {
+   "conversation": "conv-47",
+   "label": "10conv",
+   "W_B_s": 12.08,
+   "n_B": 2680,
+   "W_T_span_s": 10.93,
+   "n_T_span": 2680,
+   "delta_s": -1.15,
+   "saving_pct": 9.5
+  },
+  {
+   "conversation": "conv-48",
+   "label": "10conv",
+   "W_B_s": 10.97,
+   "n_B": 2940,
+   "W_T_span_s": 10.46,
+   "n_T_span": 2940,
+   "delta_s": -0.52,
+   "saving_pct": 4.7
+  },
+  {
+   "conversation": "conv-49",
+   "label": "10conv",
+   "W_B_s": 10.65,
+   "n_B": 2450,
+   "W_T_span_s": 10.0,
+   "n_T_span": 2450,
+   "delta_s": -0.65,
+   "saving_pct": 6.1
+  },
+  {
+   "conversation": "conv-50",
+   "label": "10conv",
+   "W_B_s": 11.95,
+   "n_B": 2840,
+   "W_T_span_s": 10.53,
+   "n_T_span": 2840,
+   "delta_s": -1.42,
+   "saving_pct": 11.9
+  }
+ ],
+ "overall": {
+  "W_B_s": 11.79,
+  "n_B": 26230,
+  "W_T_span_s": 10.94,
+  "n_T_span": 26230,
+  "delta_s": -0.85,
+  "saving_pct": 7.2
+ },
+ "paired": {
+  "n_spans": 2623,
+  "mean_delta_s": -0.84,
+  "ci95": [
+   -1.55,
+   -0.14
+  ]
+ }
+}

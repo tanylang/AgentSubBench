@@ -1,0 +1,16 @@
+requests>=2.28
+# legacy 续跑后端依赖(appworld_agents.code.legacy 的 OpenAILanguageModel
+# 模块级 import;缺失时 legacy 后端的 span 如实标记 backend_unavailable——
+# 硬性原则:续跑必须由真实 agent 源码驱动,绝不降级)
+numpy
+diskcache
+# LocoMo 官方 scorer 依赖(benchmarks/locomo/task_eval/evaluation.py;
+# bert_score 已懒加载,torch 可选)
+regex
+nltk
+# langgraph 臂(LoCoMo + prebuilt ReAct + LangMem)依赖——服务器用采集端
+# 同款 venv(.venvs/langgraph_locomo,锁版 0.6.11/0.0.30);本地离线测试
+# 按同版本区间安装
+langgraph>=0.6,<0.7
+langmem>=0.0.29,<0.1
+langchain-openai>=0.3,<0.4
