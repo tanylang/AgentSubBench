@@ -17,7 +17,9 @@ vendor_wheels/
 .claude/
 
 # 大体积实验数据(本地保留,不入库;获取方式见 README「数据可用性」)
-out_span_offload/
+out_span_offload/*
+!out_span_offload/c0_audits/
+!out_span_offload/spans/
 check_point_traces/
 
 # 第三方 benchmark 仓库克隆(通过 git clone 复现,见 README)

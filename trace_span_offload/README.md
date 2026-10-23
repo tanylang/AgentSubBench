@@ -98,20 +98,85 @@ For a real SLM endpoint (vLLM / SGLang / Ollama, any OpenAI-compatible server):
 `STAGE10_SLM_*` / `STAGE10_BASELINE_*` environment variables).
 **config.json contains keys — never commit it.**
 
-## Reproducing the Experiments
+## Running the Experiments
 
-1. Environment: `pip install -r requirements.txt`; for AppWorld, clone the upstream
-   repo and run `appworld install` as described in `docs/DEVELOPMENT_NOTES.md` §1.
-2. Data: raw traces and replay artifacts are large; the authors can provide them on
-   request (`out_span_offload/`, `check_point_traces/`). LoCoMo data can be obtained
-   from the [official LoCoMo repository](https://github.com/snap-research/LoCoMo) and
-   placed under `data/locomo/`.
-3. Running: locally `scripts/runners/run_live_replay.py`; cluster (slurm) scripts are
-   not included in the public repository and are available from the authors.
-4. Analysis: all analysis scripts are in `scripts/analysis/`, with outputs in
-   `results/`; the frozen preregistration is `docs/preregistration_batch3.md`.
-5. Complete experiment inventory and the audit of data not yet reported in the paper:
-   `docs/EXPERIMENT_DATA_ANALYSIS_RECORD.md`.
+> On Windows, always set `PYTHONUTF8=1 PYTHONIOENCODING=utf-8` (the console is GBK;
+> rich/emoji output crashes without it).
+
+**Setup** (AppWorld):
+
+```bash
+pip install -r requirements.txt
+git clone --depth 1 https://github.com/stonybrooknlp/appworld.git benchmarks/appworld
+cd benchmarks/appworld && git lfs pull && cd ..
+pip install -e benchmarks/appworld
+appworld install --repo && appworld download data   # task data (~35MB)
+pip install -e benchmarks/appworld/experiments --no-deps
+```
+
+**Configure models**:
+
+```bash
+cp config.example.json config.json   # fill in slm / baseline_llm base_url, api_key, model
+```
+
+`slm` = candidate small model; `baseline_llm` = baseline large model (must match the
+model that generated the traces). Keys can also be injected via `STAGE10_SLM_*` /
+`STAGE10_BASELINE_*` environment variables. `config.json` contains keys — never commit.
+
+**1. Extract spans from checkpoint traces** (Phase 1):
+
+```bash
+python -m span_offload.cli extract \
+    --traces check_point_traces/appworld_simplified_qwen3_8-27b_batch1 \
+    --manifest data/appworld/task_manifest.json \
+    --out out_span_offload/spans.jsonl --trace-format appworld
+```
+
+**2. C0 frozen-replay audit** (replay-fidelity gate):
+
+```bash
+python scripts/runners/run_c0_replay.py --spans out_span_offload/spans.jsonl \
+    --out out_span_offload/c0_replay.jsonl
+```
+
+**3. Single-span counterfactual replay** (core measurement; per span, three arms
+I/B/T_span with live baseline-model continuation):
+
+```bash
+python scripts/runners/run_offload_profile.py --spans out_span_offload/spans.jsonl \
+    --config config.json --rounds 5 --identity-rounds 5 --mode both \
+    --fallback none --out out_span_offload/offload_profile.jsonl
+```
+
+**4. Analyze** (main comparison, ex-ante features, stratified offloadability):
+
+```bash
+python scripts/analysis/main_comparison.py \
+    --records out_span_offload/merged/_tmp_loco10_recs_merged.jsonl \
+    --out results/main_comparisons/main_comparison_langgraph_10conv.json
+python scripts/analysis/locomo_exante_features.py \
+    --spans out_span_offload/merged/_tmp_loco10_spans_merged.jsonl \
+    --records out_span_offload/merged/_tmp_loco10_recs_merged.jsonl \
+    --out results/locomo/locomo_exante_features_10conv.json
+python scripts/analysis/offloadability_langgraph_exante.py \
+    --records out_span_offload/merged/_tmp_loco_recs_merged.jsonl \
+    --spans out_span_offload/spans/spans_langgraph_conv-26.jsonl \
+    --traces-dir check_point_traces/locomo_langgraph_qwen3_8-27b \
+    --out results/locomo/offloadability_langgraph_exante.json
+```
+
+**Offline self-tests** (no API needed): `python tests/run_offline_test.py` (33 checks)
+and `python tests/run_agent_traces_test.py` (38 checks).
+
+**Data availability**: raw traces (`check_point_traces/`, 2 GB) and replay artifacts
+(`out_span_offload/`, 4 GB) are too large for the repository; they are released as
+compressed archives alongside the code (see the GitHub release page) or available
+from the authors on request. LoCoMo data can be obtained from the
+[official LoCoMo repository](https://github.com/snap-research/LoCoMo) and placed
+under `data/locomo/`. The frozen preregistration is `docs/preregistration_batch3.md`;
+the complete experiment inventory and the audit of data not yet reported in the
+paper is `docs/EXPERIMENT_DATA_ANALYSIS_RECORD.md`.
 
 ## Security
 
