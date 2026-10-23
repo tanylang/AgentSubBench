@@ -1,0 +1,5340 @@
+{
+ "generated_by": "c0 gate 汇总",
+ "agents": {
+  "autogen": {
+   "n_spans": 75,
+   "passed": 75,
+   "failed": 0,
+   "rate": 1.0,
+   "details": [
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 9,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_3",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_3",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_3",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_3",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_3",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_3",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_3",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 9,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 10,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 11,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 9,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 10,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 11,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 12,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 13,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 14,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 15,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 9,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 10,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "6bdbc26_3",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "6bdbc26_3",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "6bdbc26_3",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "6bdbc26_3",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "6bdbc26_3",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "fac291d_2",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "fac291d_2",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "fac291d_2",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "fac291d_2",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "fac291d_2",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    }
+   ]
+  },
+  "tau2": {
+   "n_spans": 52,
+   "passed": 52,
+   "failed": 0,
+   "rate": 1.0,
+   "details": [
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 9,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 10,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 9,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 10,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 11,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 12,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 13,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_1",
+     "invocation_index": 14,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 9,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 10,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 11,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 12,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 13,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 14,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 15,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 16,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_2",
+     "invocation_index": 17,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 9,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 10,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "50e1ac9_3",
+     "invocation_index": 11,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    }
+   ]
+  },
+  "simplified": {
+   "n_spans": 53,
+   "passed": 53,
+   "failed": 0,
+   "rate": 1.0,
+   "details": [
+    {
+     "task_id": "21abae1_1",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "21abae1_1",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "21abae1_1",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "21abae1_1",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "21abae1_1",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "21abae1_1",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_1",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_2",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_2",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_2",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_2",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_2",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_2",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_2",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_2",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "23cf851_3",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_1",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_1",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_1",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_1",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_1",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_1",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 9,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "383cbac_3",
+     "invocation_index": 10,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 6,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 7,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "4ec8de5_1",
+     "invocation_index": 8,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    }
+   ]
+  },
+  "langgraph": {
+   "n_spans": 577,
+   "passed": 577,
+   "failed": 0,
+   "rate": 1.0,
+   "details": [
+    {
+     "task_id": "locomo:conv-26:q000",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q000",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q000",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q001",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q001",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q002",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q002",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q002",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q003",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q003",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q003",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q003",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q003",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q004",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q004",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q005",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q005",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q005",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q006",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q006",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q006",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q006",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q006",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q006",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q007",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q007",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q007",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q007",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q007",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q008",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q008",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q008",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q009",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q009",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q009",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q010",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q010",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q010",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q010",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q010",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q010",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q011",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q011",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q011",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q011",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q012",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q012",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q012",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q012",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q012",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q013",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q013",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q013",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q014",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q014",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q015",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q015",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q016",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q016",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q016",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q017",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q017",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q017",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q018",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q018",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q018",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q019",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q019",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q019",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q020",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q020",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q020",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q021",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q021",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q021",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q022",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q022",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q023",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q023",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q023",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q024",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q024",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q025",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q025",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q026",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q026",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q026",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q026",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q026",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q026",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q027",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q027",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q028",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q028",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q028",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q029",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q029",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q030",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q030",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q030",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q031",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q031",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q032",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q032",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q032",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q032",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q033",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q033",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q033",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q034",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q034",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q034",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q034",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q035",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q035",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q035",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q036",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q036",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q037",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q037",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q038",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q038",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q038",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q038",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q039",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q039",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q039",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q039",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q039",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q039",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q040",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q040",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q040",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q041",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q041",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q041",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q042",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q042",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q043",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q043",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q044",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q044",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q044",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q044",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q044",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q044",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q045",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q045",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q046",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q046",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q047",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q047",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q047",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q047",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q047",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q047",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q048",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q048",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q049",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q049",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q050",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q050",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q050",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q051",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q051",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q052",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q052",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q052",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q052",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q053",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q053",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q054",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q054",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q054",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q055",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q055",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q056",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q056",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q057",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q057",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q057",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q057",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q057",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q057",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q058",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q058",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q059",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q059",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q059",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q060",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q060",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q060",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q060",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q061",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q061",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q062",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q062",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q062",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q062",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q063",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q063",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q063",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q064",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q064",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q065",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q065",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q065",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q066",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q066",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q066",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q067",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q067",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q067",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q068",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q068",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q068",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q069",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q069",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q070",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q070",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q070",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q071",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q071",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q071",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q072",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q072",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q073",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q073",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q073",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q073",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q073",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q073",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q074",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q074",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q074",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q075",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q075",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q075",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q075",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q075",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q075",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q076",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q076",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q076",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q077",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q077",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q077",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q078",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q078",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q078",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q078",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q079",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q079",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q079",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q080",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q080",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q081",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q081",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q081",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q082",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q082",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q083",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q083",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q083",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q084",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q084",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q084",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q085",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q085",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q085",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q085",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q085",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q085",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q086",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q086",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q087",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q087",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q088",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q088",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q088",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q089",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q089",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q090",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q090",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q091",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q091",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q091",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q092",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q092",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q092",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q093",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q093",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q093",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q094",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q094",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q095",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q095",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q095",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q096",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q096",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q097",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q097",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q097",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q098",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q098",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q099",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q099",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q099",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q099",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q100",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q100",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q100",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q101",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q101",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q102",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q102",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q103",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q103",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q104",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q104",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q104",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q105",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q105",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q105",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q106",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q106",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q106",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q107",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q107",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q107",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q108",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q108",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q109",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q109",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q110",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q110",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q111",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q111",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q111",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q112",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q112",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q112",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q113",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q113",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q113",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q113",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q113",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q114",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q114",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q114",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q114",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q115",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q115",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q116",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q116",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q117",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q117",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q118",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q118",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q118",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q118",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q118",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q119",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q119",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q120",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q120",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q120",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q121",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q121",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q122",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q122",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q122",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q122",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q122",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q122",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q123",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q123",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q123",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q124",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q124",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q125",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q125",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q126",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q126",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q126",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q126",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q126",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q126",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q127",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q127",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q127",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q128",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q128",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q128",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q128",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q128",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q128",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q129",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q129",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q129",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q129",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q129",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q129",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q130",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q130",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q131",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q131",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q132",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q132",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q133",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q133",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q133",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q134",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q134",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q135",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q135",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q136",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q136",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q137",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q137",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q138",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q138",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q139",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q139",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q140",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q140",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q140",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q140",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q141",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q141",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q142",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q142",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q143",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q143",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q144",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q144",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q145",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q145",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q146",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q146",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q147",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q147",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q148",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q148",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q148",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q149",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q149",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q150",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q150",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q150",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": true,
+     "replayed_final_task_success": true,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q151",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q151",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q152",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q152",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q153",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q153",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q153",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q153",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q153",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q154",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q154",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q154",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q155",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q155",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q156",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q156",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q157",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q157",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q158",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q158",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q159",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q159",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q159",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q160",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q160",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q160",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q161",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q161",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q162",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q162",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q162",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q163",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q163",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q164",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q164",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q165",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q165",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q166",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q166",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q166",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q167",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q167",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q168",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q168",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q168",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q169",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q169",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q169",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q170",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q170",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q171",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q171",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q172",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q172",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q173",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q173",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q173",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q174",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q174",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q175",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q175",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q176",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q176",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q177",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q177",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q177",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q178",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q178",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q179",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q179",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q180",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q180",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q180",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q180",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q181",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q181",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q182",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q182",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q182",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q182",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q182",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q182",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q183",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q183",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q183",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q183",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q183",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q183",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q184",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q184",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q184",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q184",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q185",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q185",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q186",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q186",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q187",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q187",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q188",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q188",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q188",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q188",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q188",
+     "invocation_index": 4,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q188",
+     "invocation_index": 5,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q189",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q189",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q190",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q190",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q191",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q191",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q192",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q192",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q193",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q193",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q194",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q194",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q195",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q195",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q196",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q196",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q196",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q196",
+     "invocation_index": 3,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q197",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q197",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q198",
+     "invocation_index": 0,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q198",
+     "invocation_index": 1,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    },
+    {
+     "task_id": "locomo:conv-26:q198",
+     "invocation_index": 2,
+     "native_final_evaluator_passed": false,
+     "replayed_final_task_success": false,
+     "match": true
+    }
+   ]
+  }
+ },
+ "total": {
+  "n_spans": 757,
+  "passed": 757
+ }
+}

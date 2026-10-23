@@ -1,0 +1,196 @@
+{
+ "n_analyses": 12,
+ "frequency": {
+  "NewBranchRate": 5,
+  "RevisitRate": 4,
+  "ParamMatchRate": 7,
+  "StepsRatio": 4,
+  "FailRetryRate": 6,
+  "ObservePerDecision": 3,
+  "DeadEndRate": 5,
+  "llm": 4,
+  "ObserveChaining": 5,
+  "hall": 3,
+  "ControlFlowDeviation": 2,
+  "ToolSeqJaccard": 6,
+  "BranchWidth": 4,
+  "DirectActionRate": 4,
+  "ActionsPerDecision": 1,
+  "NovelInfoRate": 1,
+  "WriteRatio": 4,
+  "strict": 6,
+  "AbnormalExit": 5,
+  "KeyChainCoverage": 5,
+  "MissingBranchRate": 4,
+  "FirstCompleteNormPos": 5,
+  "ReasonOnlyRate": 2,
+  "tools": 1,
+  "MaxFailRun": 1,
+  "FailChaining": 1,
+  "ToolEntropy": 1,
+  "TotalTokens": 1,
+  "ThinkThenObserve": 1,
+  "BatchDecisionRate": 1,
+  "SameToolPersistence": 1
+ },
+ "analyses": {
+  "screening TvsB": [
+   "NewBranchRate",
+   "RevisitRate"
+  ],
+  "screening TvsI": [
+   "ControlFlowDeviation",
+   "DeadEndRate",
+   "FailRetryRate",
+   "NewBranchRate",
+   "ObserveChaining",
+   "ObservePerDecision",
+   "ParamMatchRate",
+   "RevisitRate",
+   "StepsRatio",
+   "ToolSeqJaccard",
+   "hall",
+   "llm"
+  ],
+  "screening BvsI": [
+   "BranchWidth",
+   "ControlFlowDeviation",
+   "DeadEndRate",
+   "DirectActionRate",
+   "FailRetryRate",
+   "ParamMatchRate",
+   "ToolSeqJaccard"
+  ],
+  "confirm TvsB": [
+   "ActionsPerDecision",
+   "DeadEndRate",
+   "DirectActionRate",
+   "FailRetryRate",
+   "NewBranchRate",
+   "NovelInfoRate",
+   "ObserveChaining",
+   "ParamMatchRate",
+   "WriteRatio",
+   "strict"
+  ],
+  "confirm TvsI": [
+   "NewBranchRate",
+   "ObserveChaining",
+   "ParamMatchRate",
+   "ToolSeqJaccard"
+  ],
+  "confirm BvsI": [
+   "AbnormalExit",
+   "BranchWidth",
+   "DeadEndRate",
+   "DirectActionRate",
+   "FailRetryRate",
+   "FirstCompleteNormPos",
+   "KeyChainCoverage",
+   "MissingBranchRate",
+   "ParamMatchRate",
+   "StepsRatio",
+   "WriteRatio",
+   "hall",
+   "llm",
+   "strict"
+  ],
+  "可解组": [
+   "AbnormalExit",
+   "FirstCompleteNormPos",
+   "KeyChainCoverage",
+   "MissingBranchRate",
+   "ToolSeqJaccard",
+   "strict"
+  ],
+  "不可解组": [
+   "AbnormalExit",
+   "FirstCompleteNormPos",
+   "KeyChainCoverage",
+   "NewBranchRate",
+   "ParamMatchRate",
+   "ReasonOnlyRate",
+   "RevisitRate",
+   "WriteRatio",
+   "strict"
+  ],
+  "成功×成功": [
+   "ToolSeqJaccard"
+  ],
+  "失败×失败": [
+   "FailRetryRate",
+   "ObserveChaining",
+   "ObservePerDecision",
+   "ReasonOnlyRate",
+   "RevisitRate",
+   "StepsRatio",
+   "llm",
+   "tools"
+  ],
+  "成功×失败": [
+   "AbnormalExit",
+   "BranchWidth",
+   "FirstCompleteNormPos",
+   "KeyChainCoverage",
+   "MissingBranchRate",
+   "strict"
+  ],
+  "失败×成功": [
+   "AbnormalExit",
+   "BatchDecisionRate",
+   "BranchWidth",
+   "DeadEndRate",
+   "DirectActionRate",
+   "FailChaining",
+   "FailRetryRate",
+   "FirstCompleteNormPos",
+   "KeyChainCoverage",
+   "MaxFailRun",
+   "MissingBranchRate",
+   "ObserveChaining",
+   "ObservePerDecision",
+   "ParamMatchRate",
+   "SameToolPersistence",
+   "StepsRatio",
+   "ThinkThenObserve",
+   "ToolEntropy",
+   "ToolSeqJaccard",
+   "TotalTokens",
+   "WriteRatio",
+   "hall",
+   "llm",
+   "strict"
+  ]
+ },
+ "minimal_core": [
+  "ParamMatchRate",
+  "FailRetryRate",
+  "ToolSeqJaccard",
+  "strict",
+  "NewBranchRate",
+  "ObserveChaining",
+  "AbnormalExit",
+  "KeyChainCoverage",
+  "RevisitRate",
+  "llm",
+  "BranchWidth",
+  "DirectActionRate",
+  "WriteRatio",
+  "MissingBranchRate",
+  "ObservePerDecision",
+  "hall",
+  "ControlFlowDeviation",
+  "ReasonOnlyRate"
+ ],
+ "redundancy_rule": {
+  "AbnormalExit": [
+   "FirstCompleteNormPos"
+  ],
+  "DirectActionRate": [
+   "DeadEndRate"
+  ],
+  "llm": [
+   "StepsRatio"
+  ]
+ }
+}

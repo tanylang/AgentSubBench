@@ -1,0 +1,21 @@
+{
+  "manifest_version": "stage10-task-manifest/v1",
+  "description": "Manifest for the real AppWorld task 0d8a4ee_1 (send phone message to parents/siblings). TaskCondition is read ONLY from this manifest (14.2.3).",
+  "tasks": [
+    {
+      "task_id": "0d8a4ee_1",
+      "statement": "Send the following phone message to my parents and siblings, who do not have a venmo account, \"Please get on venmo.\".",
+      "task_type": "phone_messaging",
+      "involved_apps": ["phone"],
+      "cross_app": true,
+      "horizon": "long",
+      "task_state_effect": "state_mutating",
+      "branching": "none",
+      "evaluator_type": "appworld_final_evaluator",
+      "collateral_risk": "unknown",
+      "split": "pilot",
+      "world_variant": "default",
+      "evaluator": {}
+    }
+  ]
+}

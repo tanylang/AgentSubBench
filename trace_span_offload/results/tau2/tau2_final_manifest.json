@@ -1,0 +1,321 @@
+{
+ "dataset": "out_span_offload/tau2/tau2_screening_final_44span.jsonl",
+ "n_records": 1320,
+ "included": [
+  {
+   "task": "4ec8de5_1",
+   "inv": 1,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 2,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 3,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 4,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 5,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 6,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 7,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 8,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 9,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "4ec8de5_1",
+   "inv": 10,
+   "node": "final_synthesis",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 1,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 2,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 3,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 4,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 5,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 6,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 7,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 8,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 9,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 10,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 11,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 12,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 13,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_1",
+   "inv": 14,
+   "node": "final_synthesis",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 1,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 2,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 3,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 4,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 5,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 6,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 7,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 8,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 9,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 10,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 11,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 1,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 2,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 3,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 4,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 5,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 6,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 7,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 8,
+   "node": "tool_argument_generation",
+   "engine": "2026-09-16.17"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 11,
+   "node": "final_synthesis",
+   "engine": "2026-09-16.17"
+  }
+ ],
+ "never_run": [
+  {
+   "task": "50e1ac9_2",
+   "inv": 13,
+   "reason": "eligible 但未运行(墙钟耗尽,队列尾部)"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 14,
+   "reason": "eligible 但未运行(墙钟耗尽,队列尾部)"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 15,
+   "reason": "eligible 但未运行(墙钟耗尽,队列尾部)"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 16,
+   "reason": "eligible 但未运行(墙钟耗尽,队列尾部)"
+  },
+  {
+   "task": "50e1ac9_2",
+   "inv": 17,
+   "reason": "eligible 但未运行(墙钟耗尽,队列尾部)"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 9,
+   "reason": "eligible 但未运行(墙钟耗尽,队列尾部)"
+  },
+  {
+   "task": "50e1ac9_3",
+   "inv": 10,
+   "reason": "eligible 但未运行(墙钟耗尽,队列尾部)"
+  }
+ ],
+ "removed_incomplete": [
+  {
+   "task": "50e1ac9_2",
+   "inv": 12,
+   "rounds_per_arm": {
+    "B": 5,
+    "I": 1,
+    "T_span": 1
+   },
+   "reason": "slurm 24h 墙钟耗尽,resume 中断(仅 7 条记录)",
+   "action": "已从 screening 目录剔除"
+  }
+ ],
+ "note": "screening 目录现已全部完整:44 span × 3 臂 × 10 轮;part3 summary 仍缺(50e1ac9_2)"
+}

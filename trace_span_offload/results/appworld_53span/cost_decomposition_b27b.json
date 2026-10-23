@@ -1,0 +1,140 @@
+{
+ "B_agg": {
+  "n": 265,
+  "strict": 0.6264150943396226,
+  "n_llm": {
+   "mean": 10.618867924528303,
+   "median": 4,
+   "p95": 51,
+   "max": 63
+  },
+  "n_tool": {
+   "mean": 15.452830188679245,
+   "median": 4,
+   "p95": 53,
+   "max": 195
+  },
+  "n_fail": {
+   "mean": 10.577358490566038,
+   "median": 0,
+   "p95": 49,
+   "max": 194
+  },
+  "target_p": {
+   "mean": 10210.22641509434,
+   "median": 7898,
+   "p95": 27691,
+   "max": 40990
+  },
+  "target_c": {
+   "mean": 976.1169811320755,
+   "median": 527,
+   "p95": 3628,
+   "max": 4096
+  },
+  "down_p": {
+   "mean": 100737.19245283019,
+   "median": 20535,
+   "p95": 580828,
+   "max": 1168372
+  },
+  "down_c": {
+   "mean": 6030.116981132075,
+   "median": 2850,
+   "p95": 33488,
+   "max": 44996
+  },
+  "context_load": {
+   "mean": 110947.41886792453,
+   "median": 30424,
+   "p95": 588769,
+   "max": 1176311
+  }
+ },
+ "I_agg": {
+  "n": 265,
+  "strict": 0.9245283018867925,
+  "n_llm": {
+   "mean": 11.928301886792452,
+   "median": 7,
+   "p95": 41,
+   "max": 56
+  },
+  "n_tool": {
+   "mean": 49.24528301886792,
+   "median": 11,
+   "p95": 222,
+   "max": 425
+  },
+  "n_fail": {
+   "mean": 34.426415094339625,
+   "median": 2,
+   "p95": 195,
+   "max": 415
+  },
+  "target_p": {
+   "mean": 0,
+   "median": 0,
+   "p95": 0,
+   "max": 0
+  },
+  "target_c": {
+   "mean": 0,
+   "median": 0,
+   "p95": 0,
+   "max": 0
+  },
+  "down_p": {
+   "mean": 168303.30188679244,
+   "median": 64340,
+   "p95": 926071,
+   "max": 1632246
+  },
+  "down_c": {
+   "mean": 889.788679245283,
+   "median": 394,
+   "p95": 3628,
+   "max": 6835
+  },
+  "context_load": {
+   "mean": 168303.30188679244,
+   "median": 64340,
+   "p95": 926071,
+   "max": 1632246
+  }
+ },
+ "economic": {
+  "c_target_B": 0.0059846304,
+  "c_target_SLM": 0.002117204150943396,
+  "saving_direct": 0.0038674262490566037,
+  "c_down_B_miss": 0.052939648,
+  "c_down_B_hit": 0.018789739758490565,
+  "c_down_I_miss": 0.024060743924528304,
+  "c_down_I_hit": 0.0010031915660377358,
+  "cost_comp_miss": 0.028878904075471695,
+  "cost_comp_hit": 0.01778654819245283,
+  "rho_comp_miss": 7.467215200940481,
+  "rho_comp_hit": 4.599065902495639,
+  "pricing": {
+   "deepseek-v4-flash": {
+    "source": "DeepSeek official API, effective 2026-09-10 (off-peak)",
+    "in_miss": 0.14,
+    "in_hit": 0.003,
+    "out": 0.56
+   },
+   "Qwen3.8-27B": {
+    "source": "Alibaba Model Studio official (Singapore USD)",
+    "in_miss": 0.424,
+    "in_hit": 0.085,
+    "out": 1.696
+   },
+   "Qwen3.5-9B": {
+    "source": "Alibaba Model Studio official (USD)",
+    "in_miss": 0.15,
+    "in_hit": 0.15,
+    "out": 0.6
+   }
+  },
+  "price_note": "公开价目表 2026-09-13 版,USD/1M tokens;deepseek 按 1USD=7.14CNY 换算 off-peak;27B 本批为本地 vLLM 自托管,公开价作为租赁等价参照"
+ }
+}
