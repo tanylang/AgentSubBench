@@ -1,0 +1,4 @@
+{
+  "deepseek_api_key": "YOUR_DEEPSEEK_API_KEY",
+  "note": "Copy this to config.json and fill in your real key (config.json is excluded by .gitignore; do not upload it)"
+}

@@ -1,0 +1,1202 @@
+[
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 024c982_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "024c982_1"
+      }
+    },
+    "ground_truth": "Task 024c982_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 024c982_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "024c982_2"
+      }
+    },
+    "ground_truth": "Task 024c982_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 024c982_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "024c982_3"
+      }
+    },
+    "ground_truth": "Task 024c982_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 042a9fc_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "042a9fc_1"
+      }
+    },
+    "ground_truth": "Task 042a9fc_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 042a9fc_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "042a9fc_2"
+      }
+    },
+    "ground_truth": "Task 042a9fc_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 042a9fc_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "042a9fc_3"
+      }
+    },
+    "ground_truth": "Task 042a9fc_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 07b42fd_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "07b42fd_1"
+      }
+    },
+    "ground_truth": "Task 07b42fd_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 07b42fd_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "07b42fd_2"
+      }
+    },
+    "ground_truth": "Task 07b42fd_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 07b42fd_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "07b42fd_3"
+      }
+    },
+    "ground_truth": "Task 07b42fd_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 07bb666_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "07bb666_1"
+      }
+    },
+    "ground_truth": "Task 07bb666_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 07bb666_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "07bb666_2"
+      }
+    },
+    "ground_truth": "Task 07bb666_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 07bb666_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "07bb666_3"
+      }
+    },
+    "ground_truth": "Task 07bb666_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 099174d_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "099174d_1"
+      }
+    },
+    "ground_truth": "Task 099174d_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 099174d_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "099174d_2"
+      }
+    },
+    "ground_truth": "Task 099174d_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 099174d_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "099174d_3"
+      }
+    },
+    "ground_truth": "Task 099174d_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 09ac073_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "09ac073_1"
+      }
+    },
+    "ground_truth": "Task 09ac073_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 09ac073_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "09ac073_2"
+      }
+    },
+    "ground_truth": "Task 09ac073_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 09ac073_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "09ac073_3"
+      }
+    },
+    "ground_truth": "Task 09ac073_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 09b0ee6_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "09b0ee6_1"
+      }
+    },
+    "ground_truth": "Task 09b0ee6_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 09b0ee6_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "09b0ee6_2"
+      }
+    },
+    "ground_truth": "Task 09b0ee6_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 09b0ee6_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "09b0ee6_3"
+      }
+    },
+    "ground_truth": "Task 09b0ee6_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0a9d82a_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0a9d82a_1"
+      }
+    },
+    "ground_truth": "Task 0a9d82a_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0a9d82a_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0a9d82a_2"
+      }
+    },
+    "ground_truth": "Task 0a9d82a_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0a9d82a_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0a9d82a_3"
+      }
+    },
+    "ground_truth": "Task 0a9d82a_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0d01c76_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0d01c76_1"
+      }
+    },
+    "ground_truth": "Task 0d01c76_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0d01c76_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0d01c76_2"
+      }
+    },
+    "ground_truth": "Task 0d01c76_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0d01c76_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0d01c76_3"
+      }
+    },
+    "ground_truth": "Task 0d01c76_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0d22252_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0d22252_1"
+      }
+    },
+    "ground_truth": "Task 0d22252_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0d22252_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0d22252_2"
+      }
+    },
+    "ground_truth": "Task 0d22252_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0d22252_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0d22252_3"
+      }
+    },
+    "ground_truth": "Task 0d22252_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0d8a4ee_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0d8a4ee_1"
+      }
+    },
+    "ground_truth": "Task 0d8a4ee_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0d8a4ee_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0d8a4ee_2"
+      }
+    },
+    "ground_truth": "Task 0d8a4ee_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0d8a4ee_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0d8a4ee_3"
+      }
+    },
+    "ground_truth": "Task 0d8a4ee_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0de03ad_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0de03ad_1"
+      }
+    },
+    "ground_truth": "Task 0de03ad_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0de03ad_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0de03ad_2"
+      }
+    },
+    "ground_truth": "Task 0de03ad_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0de03ad_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0de03ad_3"
+      }
+    },
+    "ground_truth": "Task 0de03ad_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0de03ea_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0de03ea_1"
+      }
+    },
+    "ground_truth": "Task 0de03ea_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0de03ea_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0de03ea_2"
+      }
+    },
+    "ground_truth": "Task 0de03ea_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 0de03ea_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "0de03ea_3"
+      }
+    },
+    "ground_truth": "Task 0de03ea_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 1150ed6_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "1150ed6_1"
+      }
+    },
+    "ground_truth": "Task 1150ed6_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 1150ed6_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "1150ed6_2"
+      }
+    },
+    "ground_truth": "Task 1150ed6_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 1150ed6_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "1150ed6_3"
+      }
+    },
+    "ground_truth": "Task 1150ed6_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 13547f5_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "13547f5_1"
+      }
+    },
+    "ground_truth": "Task 13547f5_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 13547f5_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "13547f5_2"
+      }
+    },
+    "ground_truth": "Task 13547f5_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 13547f5_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "13547f5_3"
+      }
+    },
+    "ground_truth": "Task 13547f5_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 143527e_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "143527e_1"
+      }
+    },
+    "ground_truth": "Task 143527e_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 143527e_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "143527e_2"
+      }
+    },
+    "ground_truth": "Task 143527e_2",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 143527e_3)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "143527e_3"
+      }
+    },
+    "ground_truth": "Task 143527e_3",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 166f4ff_1)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "166f4ff_1"
+      }
+    },
+    "ground_truth": "Task 166f4ff_1",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that helps complete tasks in AppWorld. Use the appworld tool to interact with apps and APIs.",
+        "role": "system"
+      },
+      {
+        "content": "Complete the task in AppWorld (task_id: 166f4ff_2)",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "experiment_name": "verification",
+        "ground_truth_mode": "minimal",
+        "task_id": "166f4ff_2"
+      }
+    },
+    "ground_truth": "Task 166f4ff_2",
+    "dataset": "env"
+  }
+]

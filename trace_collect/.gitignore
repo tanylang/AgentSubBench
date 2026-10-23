@@ -1,0 +1,44 @@
+# ── 隐私:API 密钥配置文件(绝不上传)──
+config.json
+
+# ── 运行时产物 ──
+logs/
+__pycache__/
+*.pyc
+*.log
+oai_debug.log
+experiments/outputs/
+check_point_trace_new/
+checkpoints/
+.pymeta/
+.venvs/
+
+# ── 收集产出数据(体积大,本地保留,不入库)──
+traces/
+swe_workspaces/
+
+# ── langgraph_locomo / autogen_locomo 运行时数据(代码入库)──
+langgraph_locomo/logs/
+langgraph_locomo/snapshots/
+langgraph_locomo/traces/
+langgraph_locomo/models/
+autogen_locomo/logs/
+autogen_locomo/traces/
+autogen_locomo/tasks/
+
+# ── 大体积/运行时内容 ──
+benchmarks/appworld/experiments/outputs/
+benchmarks/appworld/.tmp/
+source_code/tau2-bench/data/
+source_code/tau2-bench/web/
+
+# ── slurm 编排脚本(集群专用,不上传)──
+slurm_scripts/
+langgraph_locomo/slurm/
+langgraph_locomo/15_submit_locomo_collection.sh
+autogen_locomo/slurm/
+
+# ── vendored 仓库的 .git 与运行时产物(不上传)──
+benchmarks/locomo/.git/
+benchmarks/locomo/logs/
+benchmarks/locomo/outputs/

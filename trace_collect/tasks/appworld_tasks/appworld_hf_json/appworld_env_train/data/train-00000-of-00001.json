@@ -1,0 +1,1102 @@
+[
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a new contact named John Smith with email john@example.com",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_001"
+      }
+    },
+    "ground_truth": "Add contact to address book",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Send an email to alice@example.com with subject 'Meeting Tomorrow'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_002"
+      }
+    },
+    "ground_truth": "Send email successfully",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Create a calendar event for tomorrow at 2pm titled 'Team Standup'",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_003"
+      }
+    },
+    "ground_truth": "Create calendar event",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Add a todo item: 'Buy groceries' with high priority",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_004"
+      }
+    },
+    "ground_truth": "Create todo item",
+    "dataset": "env"
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an AI assistant that can interact with apps through API calls. Use the appworld tool to execute Python code that calls app APIs. Complete the task by making the appropriate API calls.",
+        "role": "system"
+      },
+      {
+        "content": "Task: Search for restaurants nearby and save the top result",
+        "role": "user"
+      }
+    ],
+    "tools": [
+      "appworld"
+    ],
+    "env_info": {
+      "env_config": {
+        "task_id": "task_005"
+      }
+    },
+    "ground_truth": "Find and save restaurant",
+    "dataset": "env"
+  }
+]

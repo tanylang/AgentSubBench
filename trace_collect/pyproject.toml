@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trace-recorder"
+version = "0.2.0"
+description = "OpenTelemetry-based trace recording framework for AI agents"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Trace Recorder Contributors" }]
+requires-python = ">=3.9"
+keywords = ["ai-agent", "trace", "opentelemetry", "observability", "llm", "agent-tracing"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "opentelemetry-api>=1.20",
+    "opentelemetry-sdk>=1.20",
+    "opentelemetry-semantic-conventions-ai>=0.4",
+]
+
+[project.optional-dependencies]
+otlp = ["opentelemetry-exporter-otlp>=1.20"]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+all = [
+    "trace-recorder[otlp]",
+]
+
+[project.scripts]
+trace-record = "trace_recorder.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["trace_recorder*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = ["-v", "--tb=short"]
+
+[tool.coverage.run]
+source = ["trace_recorder"]

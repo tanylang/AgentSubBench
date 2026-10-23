@@ -1,0 +1,105 @@
+---
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request: # Trigger on all PRs, ensuring required actions to be run.
+  workflow_dispatch: # Allows to trigger the workflow manually in GitHub UI
+
+# If another push to the same PR or branch happens while this workflow is still running,
+# cancel the earlier run in favor of the next run.
+#
+# There's no point in testing an outdated version of the code. GitHub only allows
+# a limited number of job runners to be active at the same time, so it's better to cancel
+# pointless jobs early so that more useful jobs can run sooner.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  POETRY_VERSION: "1.5.1"
+  WORKDIR: "./backend"
+
+jobs:
+  lint:
+    uses: ./.github/workflows/_lint.yml
+    with:
+      working-directory: "./backend"
+    secrets: inherit
+
+  test:
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ env.WORKDIR }}
+    strategy:
+      matrix:
+        python-version:
+          - "3.9"
+          - "3.10"
+          - "3.11"
+    name: Python ${{ matrix.python-version }} tests
+    services:
+      # Label used to access the service container
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - "5432:5432"
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }} + Poetry ${{ env.POETRY_VERSION }}
+        uses: "./.github/actions/poetry_setup"
+        with:
+          python-version: ${{ matrix.python-version }}
+          poetry-version: ${{ env.POETRY_VERSION }}
+          working-directory: .
+          cache-key: langserve-all
+      - name: Install dependencies
+        run: |
+          poetry install --with test
+      - name: Install golang-migrate
+        run: |
+          wget -O golang-migrate.deb https://github.com/golang-migrate/migrate/releases/download/v4.17.0/migrate.linux-amd64.deb
+          sudo dpkg -i golang-migrate.deb && rm golang-migrate.deb
+      - name: Run tests
+        env:
+          POSTGRES_HOST: localhost
+          POSTGRES_PORT: 5432
+          POSTGRES_DB: postgres
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          SCARF_NO_ANALYTICS: true
+        run: make test
+
+  frontend-lint-and-build:
+      runs-on: ubuntu-latest
+      needs: [lint, test]
+      steps:
+        - uses: actions/checkout@v3
+        - name: Setup Node.js (LTS)
+          uses: actions/setup-node@v3
+          with:
+            node-version: '20'
+            cache: 'yarn'
+            cache-dependency-path: frontend/yarn.lock
+        - name: Install frontend dependencies
+          run: yarn install
+          working-directory: ./frontend
+        - name: Run frontend lint
+          run: yarn lint
+          working-directory: ./frontend
+        - name: Build frontend
+          run: yarn build
+          working-directory: ./frontend

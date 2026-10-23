@@ -1,0 +1,9 @@
+{
+  "type": "deterministic_hashing_vectorizer",
+  "version": 1,
+  "dimensions": 384,
+  "features": ["lowercase_word", "character_trigram"],
+  "hash": "blake2b-64",
+  "normalization": "l2",
+  "network_required": false
+}

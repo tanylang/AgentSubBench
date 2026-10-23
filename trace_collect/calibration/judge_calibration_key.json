@@ -1,0 +1,1052 @@
+{
+ "conv-41:115": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States live music event.",
+  "f1": 0.1818
+ },
+ "conv-26:89": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Includes amazing and will be an awesome mom.",
+  "f1": 0.1154
+ },
+ "conv-44:72": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Captures positive reinforcement/proper method and avoiding punishment.",
+  "f1": 0.1468
+ },
+ "conv-43:157": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "In a gorgeous forest.",
+  "f1": 0.1277
+ },
+ "conv-43:102": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Includes the culture, food, and no-regret/must-visit enticement.",
+  "f1": 0.1495
+ },
+ "conv-42:38": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Correctly gives Friday 9 September 2022.",
+  "f1": 0.0976
+ },
+ "conv-41:91": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Tech-for-good convention.",
+  "f1": 0.0385
+ },
+ "conv-41:46": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Gives weekend before July 22, 2023 correctly.",
+  "f1": 0.1562
+ },
+ "conv-49:57": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States California, matching gold.",
+  "f1": 0.0435
+ },
+ "conv-26:103": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States 'Charlotte's Web'.",
+  "f1": 0.1111
+ },
+ "conv-26:99": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Cites her own journey, support received, and improved life.",
+  "f1": 0.1117
+ },
+ "conv-41:69": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Old car.",
+  "f1": 0.0909
+ },
+ "conv-43:90": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States a local organization helping disadvantaged kids with sports and school.",
+  "f1": 0.3077
+ },
+ "conv-43:124": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "J.K. Rowling.",
+  "f1": 0.0385
+ },
+ "conv-50:149": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States it inspires others to start their DIY projects.",
+  "f1": 0.1538
+ },
+ "conv-26:92": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States Sweden.",
+  "f1": 0.0455
+ },
+ "conv-43:27": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States the Pomodoro technique.",
+  "f1": 0.0909
+ },
+ "conv-49:42": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States a friend gifted him a painting and advice that inspired him.",
+  "f1": 0.6047
+ },
+ "conv-43:94": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States learning more about literature and creating a stronger bond with it.",
+  "f1": 0.3125
+ },
+ "conv-49:138": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States running in the mornings.",
+  "f1": 0.1765
+ },
+ "conv-44:79": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Says Chicken Pot Pie.",
+  "f1": 0.1132
+ },
+ "conv-26:22": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Yes, based on classic children's books.",
+  "f1": 0.1194
+ },
+ "conv-42:113": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Includes fantasy and sci-fi, though it adds action.",
+  "f1": 0.0833
+ },
+ "conv-49:58": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Around October 2022, matches gold.",
+  "f1": 0.1143
+ },
+ "conv-47:132": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "First mobile game matches gold.",
+  "f1": 0.1633
+ },
+ "conv-42:99": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Matches submit to festivals and get producers/directors to check it out.",
+  "f1": 0.2651
+ },
+ "conv-43:81": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States five years.",
+  "f1": 0.1081
+ },
+ "conv-47:123": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Dough matches gold.",
+  "f1": 0.0667
+ },
+ "conv-41:67": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Repairs/renovations for a safer, more modern learning environment.",
+  "f1": 0.5581
+ },
+ "conv-48:113": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Answer matches finding comfort after losing a friend.",
+  "f1": 0.2308
+ },
+ "conv-41:78": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Kyle.",
+  "f1": 0.0909
+ },
+ "conv-48:35": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States 24 February 2023.",
+  "f1": 0.1667
+ },
+ "conv-47:140": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "A game matches gold.",
+  "f1": 0.027
+ },
+ "conv-44:40": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States the dog park, matching gold.",
+  "f1": 0.1905
+ },
+ "conv-26:141": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States freedom and staying true to herself.",
+  "f1": 0.303
+ },
+ "conv-50:16": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "July 2023 matches gold.",
+  "f1": 0.0571
+ },
+ "conv-41:145": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States peaceful and awesome.",
+  "f1": 0.1176
+ },
+ "conv-48:107": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States the amulet.",
+  "f1": 0.0465
+ },
+ "conv-41:7": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Mentions both a doll and a film camera.",
+  "f1": 0.2818
+ },
+ "conv-44:120": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States puzzles, training, and hide-and-seek, matching gold.",
+  "f1": 0.1935
+ },
+ "conv-48:45": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States May 2023.",
+  "f1": 0.1176
+ },
+ "conv-42:196": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States his turtles.",
+  "f1": 0.0465
+ },
+ "conv-30:62": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Includes successes, support system, and why she started.",
+  "f1": 0.3061
+ },
+ "conv-30:0": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Correct date 19 January 2023.",
+  "f1": 0.1818
+ },
+ "conv-43:112": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Cozy restaurant.",
+  "f1": 0.1
+ },
+ "conv-44:109": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "States exploring the outdoors, matching gold.",
+  "f1": 0.0597
+ },
+ "conv-41:12": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Identifies the military aptitude test.",
+  "f1": 0.2727
+ },
+ "conv-41:88": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Politics and government.",
+  "f1": 0.04
+ },
+ "conv-49:150": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Lists swimming, yoga, walking.",
+  "f1": 0.1091
+ },
+ "conv-48:54": {
+  "verdict": "correct",
+  "score": 1.0,
+  "pass": "success",
+  "reason": "Says Susie was adopted first.",
+  "f1": 0.0455
+ },
+ "conv-41:50": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Includes some traits but omits selfless and rational.",
+  "f1": 0.0197
+ },
+ "conv-44:31": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Includes hiking but omits taking walks, adding other activities.",
+  "f1": 0.1667
+ },
+ "conv-44:9": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Only mentions the positive reinforcement class, omitting agility, grooming, and dog-owners group.",
+  "f1": 0.1128
+ },
+ "conv-42:58": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Only gives a few of the many recommendations listed in gold.",
+  "f1": 0.047
+ },
+ "conv-50:58": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Includes neighbor's garage and summer restoring with Dad, but omits attending a car show with Dad.",
+  "f1": 0.3528
+ },
+ "conv-43:7": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Gives London and California but omits the Smoky Mountains.",
+  "f1": 0.0238
+ },
+ "conv-50:22": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Provides fan-base growth evidence but hedges that no explicit brand expansion is recorded, while gold is yes.",
+  "f1": 0.0
+ },
+ "conv-26:149": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Includes motivation and support but not strength explicitly.",
+  "f1": 0.0235
+ },
+ "conv-49:78": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Names Sam and family but omits friends from work.",
+  "f1": 0.164
+ },
+ "conv-50:10": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Gives the 16 May timeframe but declines to confirm the flood date.",
+  "f1": 0.1149
+ },
+ "conv-41:52": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Includes Cindy but wrongly denies Laura wrote to Maria.",
+  "f1": 1.0
+ },
+ "conv-48:155": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Answer gives yoga and meditation but omits walks and mindfulness.",
+  "f1": 0.0556
+ },
+ "conv-42:135": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Says she planned to make it, but omits for her family.",
+  "f1": 0.1429
+ },
+ "conv-50:129": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions crowd energy but does not clearly include performing as energizing.",
+  "f1": 0.0678
+ },
+ "conv-48:20": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Lists Detroit, It Takes Two, and Overcooked 2, but omits Walking Dead and Battlefield 1.",
+  "f1": 0.0947
+ },
+ "conv-44:54": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions running and socializing but omits fetch with ball and frisbee.",
+  "f1": 0.3
+ },
+ "conv-43:14": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Covers articles and character/theme study but omits forum comments and writing a fantasy novel.",
+  "f1": 0.3398
+ },
+ "conv-49:21": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Includes several descriptors but omits fun/energetic and lucky someone gets him.",
+  "f1": 0.2481
+ },
+ "conv-42:75": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Gives ice cream and mousse but omits cake with berries and mixed-berry ice cream.",
+  "f1": 0.3958
+ },
+ "conv-43:132": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions determination and epic block but omits Game 7 of the 2016 Finals.",
+  "f1": 0.102
+ },
+ "conv-26:74": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Gives a vague mid-October range rather than the weekend before 20 October 2023.",
+  "f1": 0.1143
+ },
+ "conv-42:81": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Gives several recipes but omits parfait, tart, cheesecake bars, etc.",
+  "f1": 0.3292
+ },
+ "conv-26:43": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Says paintings/visual art but not specifically abstract art.",
+  "f1": 0.125
+ },
+ "conv-43:65": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Lists Star Wars and Lord of the Rings but omits Harry Potter.",
+  "f1": 0.2889
+ },
+ "conv-47:26": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Missing Canada.",
+  "f1": 0.5
+ },
+ "conv-50:49": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions tinkering with engines but omits restoration/refurbishing cars.",
+  "f1": 0.1875
+ },
+ "conv-26:147": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Conveys cherishing family but not explicit grateful/thankful.",
+  "f1": 0.0678
+ },
+ "conv-42:70": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Covers walks/beach but omits holding, feeding strawberries, baths.",
+  "f1": 0.0763
+ },
+ "conv-49:37": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions grilled dishes and stir-fry but omits salad, grilled salmon, Beef Merlot, fruit bowl, and smoothie bowl.",
+  "f1": 0.1056
+ },
+ "conv-49:62": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Evan's incidents match but Sam's stomach-pains/gastritis scare is replaced with a weight scare.",
+  "f1": 0.1514
+ },
+ "conv-49:48": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Covers healthy eating and exercise but omits running and hiking.",
+  "f1": 0.1667
+ },
+ "conv-48:86": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions the appreciation letter but omits the flower bouquet and motivational quote.",
+  "f1": 0.0753
+ },
+ "conv-47:22": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Only children's hospital; missing animal shelter and homeless.",
+  "f1": 0.0635
+ },
+ "conv-48:14": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Lists reading and art, but omits traveling and cooking.",
+  "f1": 0.0179
+ },
+ "conv-41:36": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions live music event but omits violin concert.",
+  "f1": 0.1429
+ },
+ "conv-43:2": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Lists sneakers and jerseys but omits fantasy movie DVDs.",
+  "f1": 0.0417
+ },
+ "conv-41:35": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions Florida only, omitting Oregon.",
+  "f1": 0.0625
+ },
+ "conv-42:155": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions coconut milk ice cream but claims the favorite-show-dish answer is not recorded, hedging the correct fact.",
+  "f1": 0.1081
+ },
+ "conv-48:159": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Answer says thrilled but omits rewarded.",
+  "f1": 0.0513
+ },
+ "conv-49:13": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Close to first week of June but labels it late May.",
+  "f1": 0.1579
+ },
+ "conv-47:65": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Hedges that the exact date isn't recorded instead of confirming November 7.",
+  "f1": 0.1
+ },
+ "conv-49:51": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Lists challenges but does not include the gold solutions of cooking classes and support from friends.",
+  "f1": 0.1189
+ },
+ "conv-44:12": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions rock climbing and biking but omits fishing and camping.",
+  "f1": 0.0171
+ },
+ "conv-49:102": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Gives grilled dish with veggies but omits the salmon.",
+  "f1": 0.1034
+ },
+ "conv-49:7": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Gives painting, hiking, and kayaking but omits cooking and running, and adds weight lifting.",
+  "f1": 0.1164
+ },
+ "conv-48:90": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions Avalanche but omits Sapiens and says no favorite books are recorded.",
+  "f1": 0.087
+ },
+ "conv-48:83": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions internship and planned workshops but omits the virtual conference.",
+  "f1": 0.3333
+ },
+ "conv-30:31": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions about six months but hedges and does not confirm the exact duration.",
+  "f1": 0.2353
+ },
+ "conv-26:65": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Covers losing unsupportive friends but omits changes to her body.",
+  "f1": 0.1751
+ },
+ "conv-47:93": {
+  "verdict": "partial",
+  "score": 0.5,
+  "pass": "fail",
+  "reason": "Mentions prize money but omits the trophy.",
+  "f1": 0.0435
+ },
+ "conv-26:140": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Does not give 'Trans Lives Matter'; says text not recorded.",
+  "f1": 0
+ },
+ "conv-41:8": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says tough financial spot, contradicting middle-class or wealthy.",
+  "f1": 0
+ },
+ "conv-48:21": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is the Saturday after 27 January, but answer gives 4 February and only a play plan.",
+  "f1": 0.186
+ },
+ "conv-41:16": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Refuses despite gold giving a date.",
+  "f1": 0
+ },
+ "conv-49:74": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is the Thursday before Dec 17 2023; answer gives Tuesday Dec 12.",
+  "f1": 0.1304
+ },
+ "conv-48:105": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Does not identify the sustainable water purifier milestone.",
+  "f1": 0.0328
+ },
+ "conv-43:60": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "States the assist career-high happened on 8 December, not the gold date of 11 December 2023.",
+  "f1": 0.1765
+ },
+ "conv-47:77": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Does not give the ego/team-success advice, saying it isn't recorded.",
+  "f1": 0.0235
+ },
+ "conv-26:71": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Claims title not recorded, but gold is 'Becoming Nicole'.",
+  "f1": 0.0
+ },
+ "conv-43:8": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Declines to name Under Armour, the gold brand.",
+  "f1": 0
+ },
+ "conv-43:6": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says July 2023 instead of June 2023.",
+  "f1": 0.0667
+ },
+ "conv-50:97": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says showing his own style instead of attention to small details.",
+  "f1": 0
+ },
+ "conv-43:164": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is Spanish, but answer says French.",
+  "f1": 0
+ },
+ "conv-44:100": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says arm injury; gold says knee injury.",
+  "f1": 0
+ },
+ "conv-42:23": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Identifies the wrong screenplays as rejected.",
+  "f1": 0.1381
+ },
+ "conv-47:6": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Fails to affirm likely yes, says cannot confirm.",
+  "f1": 0
+ },
+ "conv-50:42": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is No; answer says Yes.",
+  "f1": 0
+ },
+ "conv-26:7": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says relationship status is not stated instead of single.",
+  "f1": 0.0
+ },
+ "conv-50:109": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is exploring and growing his brand; answer lists other activities instead.",
+  "f1": 0.0171
+ },
+ "conv-48:143": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold says exercise and nature are important, but answer denies any such recorded reason.",
+  "f1": 0.0723
+ },
+ "conv-26:142": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Does not describe it as an ongoing adventure of learning and growing.",
+  "f1": 0.0364
+ },
+ "conv-50:7": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is Yes; answer says no evidence of many employees.",
+  "f1": 0
+ },
+ "conv-44:110": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold says walking, but answer says hiking.",
+  "f1": 0
+ },
+ "conv-49:6": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold says two May roadtrips; answer says only one.",
+  "f1": 0.0
+ },
+ "conv-42:39": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says no date recorded and mischaracterizes Nate as host rather than attendee.",
+  "f1": 0.0294
+ },
+ "conv-49:39": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold says three months; answer says about four months.",
+  "f1": 0.0392
+ },
+ "conv-48:34": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold says 2020; answer says the year is not recorded.",
+  "f1": 0
+ },
+ "conv-42:112": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is Finding Home, but answer says not recorded.",
+  "f1": 0
+ },
+ "conv-50:156": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is nearby park; answer says the location is not recorded.",
+  "f1": 0
+ },
+ "conv-42:66": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is animal keeper with turtles; answer says chef.",
+  "f1": 0
+ },
+ "conv-43:87": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says John described the team bond as strong, while the gold answer is awesome.",
+  "f1": 0
+ },
+ "conv-50:130": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is taking it one day at a time; answer gives separate work/personal spaces instead.",
+  "f1": 0
+ },
+ "conv-43:135": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is visualizing goals and success; answer gives other methods.",
+  "f1": 0.0526
+ },
+ "conv-26:0": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says 18 July 2023 instead of 7 May 2023.",
+  "f1": 0.0606
+ },
+ "conv-50:4": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is United States; answer says Japan.",
+  "f1": 0
+ },
+ "conv-50:120": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is taking something broken and making it awesome; answer says sharing passion/inspiring others.",
+  "f1": 0.0519
+ },
+ "conv-42:34": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Fails to name the recommended books Little Women and A Court of Thorns and Roses.",
+  "f1": 0.0
+ },
+ "conv-44:50": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Answers positive reinforcement training instead of the gold grooming.",
+  "f1": 0.0
+ },
+ "conv-49:24": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold says he fell in love with a Canadian woman, not started a diet/exercise routine.",
+  "f1": 0.0317
+ },
+ "conv-41:41": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Fails to answer beach despite gold expecting beach.",
+  "f1": 0.027
+ },
+ "conv-44:52": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Suggests combining with hiking instead of installing a bird feeder.",
+  "f1": 0.0792
+ },
+ "conv-26:138": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says self-portrait drawing, not abstract painting with blue streaks.",
+  "f1": 0.1091
+ },
+ "conv-50:137": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold says at an early age; answer claims no record of when it started.",
+  "f1": 0
+ },
+ "conv-42:68": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is four; answer says two.",
+  "f1": 0
+ },
+ "conv-48:33": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold says three years; answer says duration is not recorded.",
+  "f1": 0
+ },
+ "conv-49:120": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is find a trainer; model says no such advice recorded.",
+  "f1": 0
+ },
+ "conv-47:108": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Says strategy and RPG competitions, gold is Fortnite competitions.",
+  "f1": 0.0333
+ },
+ "conv-41:70": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is pizza; model says it is not recorded.",
+  "f1": 0
+ },
+ "conv-50:151": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is photography; answer says car design/making car models.",
+  "f1": 0
+ },
+ "conv-42:187": {
+  "verdict": "incorrect",
+  "score": 0.0,
+  "pass": "fail",
+  "reason": "Gold is a suspenseful thriller; answer says a love story, contradicting the gold.",
+  "f1": 0
+ }
+}
