@@ -92,6 +92,15 @@ Input traces and replay artifacts are too large for the repository; they are
 released as compressed archives on the GitHub release page of this repository
 (`check_point_traces.tar.gz`, `out_span_offload.tar.gz`).
 
+## Authors
+
+**Yuncan Zhang**<sup>1</sup>, **Yilang Tan**<sup>1</sup>, **Wenshuang Shen**<sup>1</sup>, **Zongze Yan**<sup>1</sup>, **Fujun He**<sup>2</sup>, **Wenqing Chen**<sup>1</sup>, **Huaxiang Cai**<sup>3</sup>, **Nianji Zhan**<sup>4</sup>, **Zibin Zheng**<sup>1</sup>
+
+<sup>1</sup> School of Software Engineering, Sun Yat-sen University
+<sup>2</sup> School of Computing and Artificial Intelligence, Southwest Jiaotong University
+<sup>3</sup> Independent Researcher
+<sup>4</sup> Merchants Union Consumer Finance Company Limited
+
 ## License
 
 See the LICENSE file in each project folder.
