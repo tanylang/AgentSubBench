@@ -1,6 +1,6 @@
 # 实验数据结果分析记录(截至 2026-10-19)
 
-> 本文件记录当前仓库内全部实验数据及其分析结果,重点是**论文(agentsubbench_arxiv.tex,ICLR 2027 投稿版)尚未收录**的部分。
+> 本文件记录当前仓库内全部实验数据及其分析结果,重点是**论文(agentsubbench_arxiv.tex,投稿版)尚未收录**的部分。
 > 生成方式:从 results/、out_span_offload/、check_point_traces/ 的实际产物中直接提取与复算。
 > 模型约定:baseline = Qwen3.8-27B,candidate = Qwen/Qwen3.5-9B;主对比 T_span − B;strict success = final_success ∧ ¬collateral。
 
@@ -217,7 +217,7 @@ results/locomo/locomo_task_classification.json:conv-26/30/41/42/43 共 **999 个
 
 ## 五、论文 LoCoMo cohort 迁移到 10conv(2026-10-21)
 
-论文源码(paper/AgentSubBench.zip → paper/_overleaf_src/)已将 LoCoMo cohort 从 conv-26 单对话(257 span/95 题/7,710 条)原地更新为 10 对话全量(2,623 span/1,056 题/78,690 条),两个主文(arxiv 与 iclr2027,内容相同)与 updates/ 全部同步。关键新数字(全部由 scripts/analysis/recompute_langgraph_paper_numbers.py 从原始记录复算,并对旧 cohort 逐一验证复现论文数字后才采用):
+论文源码(paper/AgentSubBench.zip → paper/_overleaf_src/)已将 LoCoMo cohort 从 conv-26 单对话(257 span/95 题/7,710 条)原地更新为 10 对话全量(2,623 span/1,056 题/78,690 条),两个主文(内容相同)与 updates/ 全部同步。关键新数字(全部由 scripts/analysis/recompute_langgraph_paper_numbers.py 从原始记录复算,并对旧 cohort 逐一验证复现论文数字后才采用):
 
 | 指标 | 旧(论文) | 新(10conv) |
 |---|---|---|
@@ -234,4 +234,4 @@ results/locomo/locomo_task_classification.json:conv-26/30/41/42/43 共 **999 个
 注意:
 - **C0 口径缺口**:v12_replay_audit 中 LoCoMo 源审计仍为 577/577(旧 cohort 的审计数,本机无 10conv 的 C0 产物);表中 measured points 已更新为 2,623。如需审计覆盖全 cohort,需在集群重跑 run_langgraph_c0.py。
 - **bootstrap CI**:v9_new_cohorts 的新 CI 按论文声明的任务簇 bootstrap(10k 次、seed 20260924)复算;旧 cohort 复算端点与论文印刷值差 ≤0.2pp(实现细节差异,点估计完全吻合)。
-- 修改文件清单:agentsubbench_arxiv.tex / agentsubbench_iclr2027.tex(8 处×2)+ updates/{e1,e3,e4,v4_cross_agent,v7_baseline_distribution,v7_completion_time,v7_controls,v9_cross_workload,v9_detailed_tables,v9_main_summary,v9_new_cohorts,v10_response_figure,v11_local_final_figure,v11_overview_table,v12_replay_audit,v13_final_atlas_inventory,v13_local_final_detail,v13_main_atlas_table,v13_resampling_detail,v13_resource_detail}.tex。本机无 LaTeX,未编译验证。
+- 修改文件清单:两个主文 tex(8 处×2)+ updates/{e1,e3,e4,v4_cross_agent,v7_baseline_distribution,v7_completion_time,v7_controls,v9_cross_workload,v9_detailed_tables,v9_main_summary,v9_new_cohorts,v10_response_figure,v11_local_final_figure,v11_overview_table,v12_replay_audit,v13_final_atlas_inventory,v13_local_final_detail,v13_main_atlas_table,v13_resampling_detail,v13_resource_detail}.tex。本机无 LaTeX,未编译验证。
