@@ -74,7 +74,7 @@ trace_span_offload/
 │   ├── locomo/task_manifest.json    [local] locomo10.json, msc_personas_all.json,
 │   │                                multimodal_dialog/ fetched from the upstream repo
 │   └── swebench/task_manifest.json  (58 tasks, pilot/heldout split)
-├── paper/                           [not included] paper sources and arXiv submission guide
+├── paper/                           [not included] paper and submission materials
 ├── slurm/                           [not included] cluster run scripts
 ├── benchmarks/                      [local] third-party benchmark clones: appworld/, locomo/,
 │                                    swebench/ (mini-swe-agent)
