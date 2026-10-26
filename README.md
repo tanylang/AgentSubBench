@@ -101,8 +101,6 @@ released as compressed archives on the GitHub release page of this repository
 <sup>3</sup> Independent Researcher
 <sup>4</sup> Merchants Union Consumer Finance Company Limited
 
-This work was conducted in the research group of **Yuncan Zhang**, School of Software Engineering, Sun Yat-sen University.
-
 ## License
 
 See the LICENSE file in each project folder.
